@@ -1,0 +1,93 @@
+<html>
+<head>
+  <META HTTP-EQUIV="Content-Type" content="text/html"; charset="ISO-8859-1" />
+	<META HTTP-EQUIV="Pragma"  CONTENT="no-cache" />
+	<META HTTP-EQUIV="Expires" CONTENT="-1" />	
+	<script type="text/javascript" src="script?filename=ext-base.js"></script>
+	<script type="text/javascript" src="script?filename=ext-all-debug.js"></script>	
+	<script type="text/javascript" src="script?filename=ext-lang-es.js"></script>
+	
+	<!-- remote grid  -->
+  <script type="text/javascript" src="script?filename=BufferedGridView.js"></script>    
+  <script type="text/javascript" src="script?filename=BufferedRowSelectionModel.js"></script>    
+  <script type="text/javascript" src="script?filename=BufferedStore.js"></script>    
+  <script type="text/javascript" src="script?filename=BufferedGridToolbar.js"></script>    
+  <script type="text/javascript" src="script?filename=BufferedJsonReader.js"></script>
+	<!-- remote grid  -->    
+	
+	<!-- remote proxy  -->
+  <script type="text/javascript" src="script?filename=PagingMemoryRemoteProxy.js"></script>    
+	<!-- remote proxy  -->
+	
+	<script type="text/javascript" src="script?filename=Ext.ux.Plugin.RemoteComponent.js"></script>
+	<script type="text/javascript" src="script?filename=acappella_extjscore.js"></script>	
+	<link rel="stylesheet" type="text/css" href="css?filename=ext-all.css">
+	<link rel="stylesheet" type="text/css" href="css?filename=icons.css">	
+  <title>ACappella Framework - Gestion Documental Menu Principal</title>  
+</head>
+<body>
+  <script type="text/javascript">	    
+	    Ext.onReady(function() {
+			   Ext.QuickTips.init();
+				 
+				 var ex3Store = new Ext.data.Store({
+    proxy: new Ext.ux.data.PagingMemoryRemoteProxy({
+      url: 'presidents',
+      paramModify: [
+        //This operation moves the 'query' param from the local parameters to the remote ones.
+        //Meaning the proxy will not see this query param, but it will get sent to the server.
+        //We do this so the proxy does not filter the results at all. We will depend on the backend
+        //for filtering our results.
+        {param: 'query', from: 'local', to: 'remote', operation: 'move'},
+      ], 
+			loadRemoteParam: true;
+      matchColumn: 'name',   //Tells our proxy which field to filter by the 'query' param
+      reloadOnNewQuery: true //Tells our proxy to fetch the data from the server on every new query
+    }),
+    reader: new Ext.data.ArrayReader({
+      fields: [
+        {name: 'name'}
+      ]
+    })
+  });
+  
+  var ex3 = new Ext.form.ComboBox({
+    renderTo: 'example3',
+    fieldLabel: 'Presidents',
+    mode: 'remote', //This is important. Even if we were to get the data locally, we still need this with PagingMemoryRemoteProxy.
+    triggerAction: 'all',
+    emptyText: 'Type to filter results.',
+    queryDelay: 500,
+    minChars: 1,
+    width: 340,
+    listWidth: 340,
+    store: ex3Store,
+    pageSize: 10,
+    displayField: 'name',
+    valueField: 'name',
+    allowBlank: true
+  });
+
+				 
+					
+					
+		  });			 
+	</script>	
+</head>
+<body>
+	<div id="north">
+  </div>
+  <div id="west">
+	   <div id="west1">
+     </div>
+  </div>
+	 <div id="east">
+  </div>
+  <div id="center">
+  </div>
+	<div id="center1">
+  </div>
+	<div id="south">
+  </div>	 	
+</body>
+</html>

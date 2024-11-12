@@ -1,0 +1,55 @@
+  .centrar{
+  text-align: center;
+  }
+  
+  .justificar{
+  text-align: justify;
+  font-family: Tahoma;
+  color:#999999;
+  }
+  
+  .textoEnRojo{
+  color: red;
+  }
+
+  .textoEnNegrilla{
+  font-weight:bold;
+  }
+
+  .textoEnAzul{
+  font-family: Tahoma,Arial,Helvetica,sans-serif;
+  color:#00609F;
+  font-weight: 700;
+  }
+  
+  .textoEnGris{
+  background-color:#F4F4F4;
+  color:#00609F;
+  vertical-align: Middle;
+  }
+  
+  .textoEnAzul2{
+  background-color:#FAFEFF;
+  color:#00609F;
+  vertical-align: Middle;
+  }
+  
+#tdimage{
+	background-image: url(images/shadow_top.jpg);
+	background-repeat: repeat-x;
+}
+
+#tdSecure{
+	font-family: Tahoma;
+}
+
+td{
+    font-size: 11px;
+    text-align: left;
+    vertical-align: top;
+}
+
+body{
+    font-size: 12px;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+}

@@ -1,0 +1,544 @@
+DEBUG main org.apache.axis.transport.http.HTTPSender - HTTP/1.1 200 OK
+DEBUG main org.apache.axis.transport.http.HTTPSender - Server Apache-Coyote/1.1
+DEBUG main org.apache.axis.transport.http.HTTPSender - X-Powered-By Servlet 2.5; JBoss-5.0/JBossWeb-2.1
+DEBUG main org.apache.axis.transport.http.HTTPSender - X-XSS-Protection 1
+DEBUG main org.apache.axis.transport.http.HTTPSender - X-Content-Type-Options nosniff
+DEBUG main org.apache.axis.transport.http.HTTPSender - X-Frame-Options sameorigin
+DEBUG main org.apache.axis.transport.http.HTTPSender - Cache-Control no-cache
+DEBUG main org.apache.axis.transport.http.HTTPSender - Pragma no-cache
+DEBUG main org.apache.axis.transport.http.HTTPSender - Content-Type text/xml;charset=UTF-8
+DEBUG main org.apache.axis.transport.http.HTTPSender - Date Tue, 15 Aug 2023 02:35:58 GMT
+DEBUG main org.apache.axis.transport.http.HTTPSender - Connection close
+DEBUG main org.apache.axis.SOAPPart - Enter: SOAPPart ctor(FORM_INPUTSTREAM)
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(setMsgForm)
+DEBUG main org.apache.axis.SOAPPart - Setting current message form to: FORM_INPUTSTREAM (currentMessage is now org.apache.axis.transport.http.SocketInputStream)
+DEBUG main org.apache.axis.SOAPPart - Exit: SOAPPart ctor()
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(no00)
+DEBUG main org.apache.axis.transport.http.HTTPSender - 
+no Content-Length
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(xmlRecd00)
+DEBUG main org.apache.axis.transport.http.HTTPSender - 
+XML received:
+DEBUG main org.apache.axis.transport.http.HTTPSender - -----------------------------------------------
+DEBUG main org.apache.axis.SOAPPart - Enter: SOAPPart::getAsSOAPEnvelope()
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(currForm)
+DEBUG main org.apache.axis.SOAPPart - current form is FORM_INPUTSTREAM
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(pushHandler00)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Pushing handler org.apache.axis.message.EnvelopeHandler@20ce78ec
+DEBUG main org.apache.axis.encoding.DeserializationContext - Enter: DeserializationContext::startPrefixMapping(env, http://schemas.xmlsoap.org/soap/envelope/)
+DEBUG main org.apache.axis.utils.NSStack - NSPush (32)
+DEBUG main org.apache.axis.utils.NSStack - NSPush (32)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Exit: DeserializationContext::startPrefixMapping()
+DEBUG main org.apache.axis.encoding.DeserializationContext - Enter: DeserializationContext::startElement(http://schemas.xmlsoap.org/soap/envelope/, Envelope)
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(pushHandler00)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Pushing handler org.apache.axis.message.EnvelopeBuilder@393671df
+DEBUG main org.apache.axis.encoding.DeserializationContext - Pushing element Envelope
+DEBUG main org.apache.axis.encoding.DeserializationContext - Exit: DeserializationContext::startElement()
+DEBUG main org.apache.axis.encoding.DeserializationContext - Enter: DeserializationContext::startElement(http://schemas.xmlsoap.org/soap/envelope/, Header)
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(pushHandler00)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Pushing handler org.apache.axis.message.HeaderBuilder@56620197
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(newElem00)
+DEBUG main org.apache.axis.message.MessageElement - New MessageElement (org.apache.axis.message.SOAPHeader@6eda5c9) named {env}Header
+DEBUG main org.apache.axis.encoding.DeserializationContext - Pushing element Header
+DEBUG main org.apache.axis.utils.NSStack - NSPush (32)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Exit: DeserializationContext::startElement()
+DEBUG main org.apache.axis.encoding.DeserializationContext - Enter: DeserializationContext::endElement(http://schemas.xmlsoap.org/soap/envelope/, Header)
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(popHandler00)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Popping handler org.apache.axis.message.HeaderBuilder@56620197
+DEBUG main org.apache.axis.utils.NSStack - NSPop (32)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Popped element stack to org.apache.axis.message.SOAPEnvelope:Envelope
+DEBUG main org.apache.axis.encoding.DeserializationContext - Exit: DeserializationContext::endElement()
+DEBUG main org.apache.axis.encoding.DeserializationContext - Enter: DeserializationContext::startElement(http://schemas.xmlsoap.org/soap/envelope/, Body)
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(pushHandler00)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Pushing handler org.apache.axis.message.BodyBuilder@192d43ce
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(newElem00)
+DEBUG main org.apache.axis.message.MessageElement - New MessageElement (org.apache.axis.message.SOAPBody@72057ecf) named {env}Body
+DEBUG main org.apache.axis.encoding.DeserializationContext - Pushing element Body
+DEBUG main org.apache.axis.utils.NSStack - NSPush (32)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Exit: DeserializationContext::startElement()
+DEBUG main org.apache.axis.encoding.DeserializationContext - Enter: DeserializationContext::startPrefixMapping(ns1, http://ws.evidencia.ares.softcol.com.co/)
+DEBUG main org.apache.axis.utils.NSStack - NSPush (32)
+DEBUG main org.apache.axis.utils.NSStack - NSPush (32)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Exit: DeserializationContext::startPrefixMapping()
+DEBUG main org.apache.axis.encoding.DeserializationContext - Enter: DeserializationContext::startElement(http://ws.evidencia.ares.softcol.com.co/, registrarEvidenciaDigitalResponse)
+DEBUG main org.apache.axis.message.BodyBuilder - Enter: BodyBuilder::onStartChild()
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(newElem00)
+DEBUG main org.apache.axis.message.MessageElement - New MessageElement (org.apache.axis.message.RPCElement@1afd44cb) named {ns1}registrarEvidenciaDigitalResponse
+DEBUG main org.apache.axis.message.BodyBuilder - Exit: BodyBuilder::onStartChild()
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(pushHandler00)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Pushing handler org.apache.axis.message.SOAPHandler@6973b51b
+DEBUG main org.apache.axis.encoding.DeserializationContext - Pushing element registrarEvidenciaDigitalResponse
+DEBUG main org.apache.axis.encoding.DeserializationContext - Exit: DeserializationContext::startElement()
+DEBUG main org.apache.axis.encoding.DeserializationContext - Enter: DeserializationContext::startElement(, return)
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(pushHandler00)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Pushing handler org.apache.axis.message.SOAPHandler@1ab3a8c8
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(newElem00)
+DEBUG main org.apache.axis.message.MessageElement - New MessageElement (org.apache.axis.message.MessageElement@43195e57) named {}return
+DEBUG main org.apache.axis.encoding.DeserializationContext - Pushing element return
+DEBUG main org.apache.axis.utils.NSStack - NSPush (32)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Exit: DeserializationContext::startElement()
+DEBUG main org.apache.axis.encoding.DeserializationContext - Enter: DeserializationContext::startElement(, idRegisteredEvidence)
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(pushHandler00)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Pushing handler org.apache.axis.message.SOAPHandler@333291e3
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(newElem00)
+DEBUG main org.apache.axis.message.MessageElement - New MessageElement (org.apache.axis.message.MessageElement@479d31f3) named {}idRegisteredEvidence
+DEBUG main org.apache.axis.encoding.DeserializationContext - Pushing element idRegisteredEvidence
+DEBUG main org.apache.axis.utils.NSStack - NSPush (32)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Exit: DeserializationContext::startElement()
+DEBUG main org.apache.axis.encoding.DeserializationContext - Enter: DeserializationContext::endElement(, idRegisteredEvidence)
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(popHandler00)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Popping handler org.apache.axis.message.SOAPHandler@333291e3
+DEBUG main org.apache.axis.utils.NSStack - NSPop (32)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Popped element stack to org.apache.axis.message.MessageElement:return
+DEBUG main org.apache.axis.encoding.DeserializationContext - Exit: DeserializationContext::endElement()
+DEBUG main org.apache.axis.encoding.DeserializationContext - Enter: DeserializationContext::startElement(, idRegisteredEvidenceItemMain)
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(pushHandler00)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Pushing handler org.apache.axis.message.SOAPHandler@6e171cd7
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(newElem00)
+DEBUG main org.apache.axis.message.MessageElement - New MessageElement (org.apache.axis.message.MessageElement@402bba4f) named {}idRegisteredEvidenceItemMain
+DEBUG main org.apache.axis.encoding.DeserializationContext - Pushing element idRegisteredEvidenceItemMain
+DEBUG main org.apache.axis.utils.NSStack - NSPush (32)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Exit: DeserializationContext::startElement()
+DEBUG main org.apache.axis.encoding.DeserializationContext - Enter: DeserializationContext::endElement(, idRegisteredEvidenceItemMain)
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(popHandler00)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Popping handler org.apache.axis.message.SOAPHandler@6e171cd7
+DEBUG main org.apache.axis.utils.NSStack - NSPop (32)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Popped element stack to org.apache.axis.message.MessageElement:return
+DEBUG main org.apache.axis.encoding.DeserializationContext - Exit: DeserializationContext::endElement()
+DEBUG main org.apache.axis.encoding.DeserializationContext - Enter: DeserializationContext::startElement(, mensajeValidacion)
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(pushHandler00)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Pushing handler org.apache.axis.message.SOAPHandler@795cd85e
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(newElem00)
+DEBUG main org.apache.axis.message.MessageElement - New MessageElement (org.apache.axis.message.MessageElement@59fd97a8) named {}mensajeValidacion
+DEBUG main org.apache.axis.encoding.DeserializationContext - Pushing element mensajeValidacion
+DEBUG main org.apache.axis.utils.NSStack - NSPush (32)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Exit: DeserializationContext::startElement()
+DEBUG main org.apache.axis.encoding.DeserializationContext - Enter: DeserializationContext::endElement(, mensajeValidacion)
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(popHandler00)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Popping handler org.apache.axis.message.SOAPHandler@795cd85e
+DEBUG main org.apache.axis.utils.NSStack - NSPop (32)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Popped element stack to org.apache.axis.message.MessageElement:return
+DEBUG main org.apache.axis.encoding.DeserializationContext - Exit: DeserializationContext::endElement()
+DEBUG main org.apache.axis.encoding.DeserializationContext - Enter: DeserializationContext::startElement(, resultadoValidacion)
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(pushHandler00)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Pushing handler org.apache.axis.message.SOAPHandler@f5ac9e4
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(newElem00)
+DEBUG main org.apache.axis.message.MessageElement - New MessageElement (org.apache.axis.message.MessageElement@123ef382) named {}resultadoValidacion
+DEBUG main org.apache.axis.encoding.DeserializationContext - Pushing element resultadoValidacion
+DEBUG main org.apache.axis.utils.NSStack - NSPush (32)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Exit: DeserializationContext::startElement()
+DEBUG main org.apache.axis.encoding.DeserializationContext - Enter: DeserializationContext::endElement(, resultadoValidacion)
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(popHandler00)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Popping handler org.apache.axis.message.SOAPHandler@f5ac9e4
+DEBUG main org.apache.axis.utils.NSStack - NSPop (32)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Popped element stack to org.apache.axis.message.MessageElement:return
+DEBUG main org.apache.axis.encoding.DeserializationContext - Exit: DeserializationContext::endElement()
+DEBUG main org.apache.axis.encoding.DeserializationContext - Enter: DeserializationContext::startElement(, signersCertificatesSerials)
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(pushHandler00)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Pushing handler org.apache.axis.message.SOAPHandler@dbf57b3
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(newElem00)
+DEBUG main org.apache.axis.message.MessageElement - New MessageElement (org.apache.axis.message.MessageElement@384ad17b) named {}signersCertificatesSerials
+DEBUG main org.apache.axis.encoding.DeserializationContext - Pushing element signersCertificatesSerials
+DEBUG main org.apache.axis.utils.NSStack - NSPush (32)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Exit: DeserializationContext::startElement()
+DEBUG main org.apache.axis.encoding.DeserializationContext - Enter: DeserializationContext::endElement(, signersCertificatesSerials)
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(popHandler00)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Popping handler org.apache.axis.message.SOAPHandler@dbf57b3
+DEBUG main org.apache.axis.utils.NSStack - NSPop (32)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Popped element stack to org.apache.axis.message.MessageElement:return
+DEBUG main org.apache.axis.encoding.DeserializationContext - Exit: DeserializationContext::endElement()
+DEBUG main org.apache.axis.encoding.DeserializationContext - Enter: DeserializationContext::startElement(, signersCertificatesSubjects)
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(pushHandler00)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Pushing handler org.apache.axis.message.SOAPHandler@61862a7f
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(newElem00)
+DEBUG main org.apache.axis.message.MessageElement - New MessageElement (org.apache.axis.message.MessageElement@441772e) named {}signersCertificatesSubjects
+DEBUG main org.apache.axis.encoding.DeserializationContext - Pushing element signersCertificatesSubjects
+DEBUG main org.apache.axis.utils.NSStack - NSPush (32)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Exit: DeserializationContext::startElement()
+DEBUG main org.apache.axis.encoding.DeserializationContext - Enter: DeserializationContext::endElement(, signersCertificatesSubjects)
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(popHandler00)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Popping handler org.apache.axis.message.SOAPHandler@61862a7f
+DEBUG main org.apache.axis.utils.NSStack - NSPop (32)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Popped element stack to org.apache.axis.message.MessageElement:return
+DEBUG main org.apache.axis.encoding.DeserializationContext - Exit: DeserializationContext::endElement()
+DEBUG main org.apache.axis.encoding.DeserializationContext - Enter: DeserializationContext::endElement(, return)
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(popHandler00)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Popping handler org.apache.axis.message.SOAPHandler@1ab3a8c8
+DEBUG main org.apache.axis.utils.NSStack - NSPop (32)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Popped element stack to org.apache.axis.message.RPCElement:registrarEvidenciaDigitalResponse
+DEBUG main org.apache.axis.encoding.DeserializationContext - Exit: DeserializationContext::endElement()
+DEBUG main org.apache.axis.encoding.DeserializationContext - Enter: DeserializationContext::endElement(http://ws.evidencia.ares.softcol.com.co/, registrarEvidenciaDigitalResponse)
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(popHandler00)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Popping handler org.apache.axis.message.SOAPHandler@6973b51b
+DEBUG main org.apache.axis.utils.NSStack - NSPop (32)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Popped element stack to org.apache.axis.message.SOAPBody:Body
+DEBUG main org.apache.axis.encoding.DeserializationContext - Exit: DeserializationContext::endElement()
+DEBUG main org.apache.axis.encoding.DeserializationContext - Enter: DeserializationContext::endPrefixMapping(ns1)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Exit: DeserializationContext::endPrefixMapping()
+DEBUG main org.apache.axis.encoding.DeserializationContext - Enter: DeserializationContext::endElement(http://schemas.xmlsoap.org/soap/envelope/, Body)
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(popHandler00)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Popping handler org.apache.axis.message.BodyBuilder@192d43ce
+DEBUG main org.apache.axis.utils.NSStack - NSPop (32)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Popped element stack to org.apache.axis.message.SOAPEnvelope:Envelope
+DEBUG main org.apache.axis.encoding.DeserializationContext - Exit: DeserializationContext::endElement()
+DEBUG main org.apache.axis.encoding.DeserializationContext - Enter: DeserializationContext::endElement(http://schemas.xmlsoap.org/soap/envelope/, Envelope)
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(popHandler00)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Popping handler org.apache.axis.message.EnvelopeBuilder@393671df
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(empty00)
+DEBUG main org.apache.axis.utils.NSStack - NSPop (empty)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Popped element stack to null
+DEBUG main org.apache.axis.encoding.DeserializationContext - Exit: DeserializationContext::endElement()
+DEBUG main org.apache.axis.encoding.DeserializationContext - Enter: DeserializationContext::endPrefixMapping(env)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Exit: DeserializationContext::endPrefixMapping()
+DEBUG main org.apache.axis.encoding.DeserializationContext - Enter: DeserializationContext::endDocument()
+DEBUG main org.apache.axis.encoding.DeserializationContext - Exit: DeserializationContext::endDocument()
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(setMsgForm)
+DEBUG main org.apache.axis.SOAPPart - Setting current message form to: FORM_SOAPENVELOPE (currentMessage is now org.apache.axis.message.SOAPEnvelope)
+DEBUG main org.apache.axis.SOAPPart - Exit: SOAPPart::getAsSOAPEnvelope
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(register00)
+DEBUG main org.apache.axis.encoding.SerializationContext - register 'env' - 'http://schemas.xmlsoap.org/soap/envelope/'
+DEBUG main org.apache.axis.utils.NSStack - NSPush (32)
+DEBUG main org.apache.axis.utils.NSStack - NSPush (32)
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(startElem00)
+DEBUG main org.apache.axis.encoding.SerializationContext - Start element [http://schemas.xmlsoap.org/soap/envelope/]:Envelope
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(startElem00)
+DEBUG main org.apache.axis.encoding.SerializationContext - Start element [http://schemas.xmlsoap.org/soap/envelope/]:Body
+DEBUG main org.apache.axis.utils.NSStack - NSPush (32)
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(register00)
+DEBUG main org.apache.axis.encoding.SerializationContext - register 'ns1' - 'http://ws.evidencia.ares.softcol.com.co/'
+DEBUG main org.apache.axis.utils.NSStack - NSPush (32)
+DEBUG main org.apache.axis.utils.NSStack - NSPush (32)
+DEBUG main org.apache.axis.message.SAXOutputter - SAXOutputter.startElement ['http://ws.evidencia.ares.softcol.com.co/' registrarEvidenciaDigitalResponse]
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(startElem00)
+DEBUG main org.apache.axis.encoding.SerializationContext - Start element [http://ws.evidencia.ares.softcol.com.co/]:registrarEvidenciaDigitalResponse
+DEBUG main org.apache.axis.message.SAXOutputter - SAXOutputter.startElement ['' return]
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(startElem00)
+DEBUG main org.apache.axis.encoding.SerializationContext - Start element []:return
+DEBUG main org.apache.axis.utils.NSStack - NSPush (32)
+DEBUG main org.apache.axis.message.SAXOutputter - SAXOutputter.startElement ['' idRegisteredEvidence]
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(startElem00)
+DEBUG main org.apache.axis.encoding.SerializationContext - Start element []:idRegisteredEvidence
+DEBUG main org.apache.axis.utils.NSStack - NSPush (32)
+DEBUG main org.apache.axis.message.SAXOutputter - SAXOutputter.characters ['568786']
+DEBUG main org.apache.axis.message.SAXOutputter - SAXOutputter.endElement ['' idRegisteredEvidence]
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(endElem00)
+DEBUG main org.apache.axis.encoding.SerializationContext - End element idRegisteredEvidence
+DEBUG main org.apache.axis.utils.NSStack - NSPop (32)
+DEBUG main org.apache.axis.message.SAXOutputter - SAXOutputter.startElement ['' idRegisteredEvidenceItemMain]
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(startElem00)
+DEBUG main org.apache.axis.encoding.SerializationContext - Start element []:idRegisteredEvidenceItemMain
+DEBUG main org.apache.axis.utils.NSStack - NSPush (32)
+DEBUG main org.apache.axis.message.SAXOutputter - SAXOutputter.characters ['568786']
+DEBUG main org.apache.axis.message.SAXOutputter - SAXOutputter.endElement ['' idRegisteredEvidenceItemMain]
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(endElem00)
+DEBUG main org.apache.axis.encoding.SerializationContext - End element idRegisteredEvidenceItemMain
+DEBUG main org.apache.axis.utils.NSStack - NSPop (32)
+DEBUG main org.apache.axis.message.SAXOutputter - SAXOutputter.startElement ['' mensajeValidacion]
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(startElem00)
+DEBUG main org.apache.axis.encoding.SerializationContext - Start element []:mensajeValidacion
+DEBUG main org.apache.axis.utils.NSStack - NSPush (32)
+DEBUG main org.apache.axis.message.SAXOutputter - SAXOutputter.characters ['OK']
+DEBUG main org.apache.axis.message.SAXOutputter - SAXOutputter.endElement ['' mensajeValidacion]
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(endElem00)
+DEBUG main org.apache.axis.encoding.SerializationContext - End element mensajeValidacion
+DEBUG main org.apache.axis.utils.NSStack - NSPop (32)
+DEBUG main org.apache.axis.message.SAXOutputter - SAXOutputter.startElement ['' resultadoValidacion]
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(startElem00)
+DEBUG main org.apache.axis.encoding.SerializationContext - Start element []:resultadoValidacion
+DEBUG main org.apache.axis.utils.NSStack - NSPush (32)
+DEBUG main org.apache.axis.message.SAXOutputter - SAXOutputter.characters ['true']
+DEBUG main org.apache.axis.message.SAXOutputter - SAXOutputter.endElement ['' resultadoValidacion]
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(endElem00)
+DEBUG main org.apache.axis.encoding.SerializationContext - End element resultadoValidacion
+DEBUG main org.apache.axis.utils.NSStack - NSPop (32)
+DEBUG main org.apache.axis.message.SAXOutputter - SAXOutputter.startElement ['' signersCertificatesSerials]
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(startElem00)
+DEBUG main org.apache.axis.encoding.SerializationContext - Start element []:signersCertificatesSerials
+DEBUG main org.apache.axis.utils.NSStack - NSPush (32)
+DEBUG main org.apache.axis.message.SAXOutputter - SAXOutputter.characters ['2188096017545229907742']
+DEBUG main org.apache.axis.message.SAXOutputter - SAXOutputter.endElement ['' signersCertificatesSerials]
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(endElem00)
+DEBUG main org.apache.axis.encoding.SerializationContext - End element signersCertificatesSerials
+DEBUG main org.apache.axis.utils.NSStack - NSPop (32)
+DEBUG main org.apache.axis.message.SAXOutputter - SAXOutputter.startElement ['' signersCertificatesSubjects]
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(startElem00)
+DEBUG main org.apache.axis.encoding.SerializationContext - Start element []:signersCertificatesSubjects
+DEBUG main org.apache.axis.utils.NSStack - NSPush (32)
+DEBUG main org.apache.axis.message.SAXOutputter - SAXOutputter.characters ['OID.2.5.4.13=CERTIFICADO DE FUNCIÓN PÚBLICA - EMITIDO POR CAMERFIRMA COLOMBIA SAS, CN=SIERRA RUIZ SHELLEY LAURETTE, OID.2.5.4.5=52996694, OID.1.3.6.1.4.1.17326.30.11=CC, STREET=CL 26 13 19, ST=']
+DEBUG main org.apache.axis.message.SAXOutputter - SAXOutputter.characters ['"']
+DEBUG main org.apache.axis.message.SAXOutputter - SAXOutputter.characters ['BOGOTÁ, D.C.']
+DEBUG main org.apache.axis.message.SAXOutputter - SAXOutputter.characters ['"']
+DEBUG main org.apache.axis.message.SAXOutputter - SAXOutputter.characters [', L=']
+DEBUG main org.apache.axis.message.SAXOutputter - SAXOutputter.characters ['"']
+DEBUG main org.apache.axis.message.SAXOutputter - SAXOutputter.characters ['BOGOTÁ, D.C.']
+DEBUG main org.apache.axis.message.SAXOutputter - SAXOutputter.characters ['"']
+DEBUG main org.apache.axis.message.SAXOutputter - SAXOutputter.characters [', OID.2.5.4.4=SIERRA RUIZ, OID.2.5.4.42=SHELLEY LAURETTE, OID.2.5.4.12=SUBDIRECTORA TECNICA COD 0150 GR 20, OU=SUBDIRECCION DE CONTROL, OID.2.5.4.97=8999990110, O=DEPARTAMENTO NACIONAL DE PLANEACION, C=CO']
+DEBUG main org.apache.axis.message.SAXOutputter - SAXOutputter.endElement ['' signersCertificatesSubjects]
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(endElem00)
+DEBUG main org.apache.axis.encoding.SerializationContext - End element signersCertificatesSubjects
+DEBUG main org.apache.axis.utils.NSStack - NSPop (32)
+DEBUG main org.apache.axis.message.SAXOutputter - SAXOutputter.endElement ['' return]
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(endElem00)
+DEBUG main org.apache.axis.encoding.SerializationContext - End element return
+DEBUG main org.apache.axis.utils.NSStack - NSPop (32)
+DEBUG main org.apache.axis.message.SAXOutputter - SAXOutputter.endElement ['http://ws.evidencia.ares.softcol.com.co/' registrarEvidenciaDigitalResponse]
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(endElem00)
+DEBUG main org.apache.axis.encoding.SerializationContext - End element ns1:registrarEvidenciaDigitalResponse
+DEBUG main org.apache.axis.utils.NSStack - NSPop (32)
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(endElem00)
+DEBUG main org.apache.axis.encoding.SerializationContext - End element env:Body
+DEBUG main org.apache.axis.utils.NSStack - NSPop (32)
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(endElem00)
+DEBUG main org.apache.axis.encoding.SerializationContext - End element env:Envelope
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(empty00)
+DEBUG main org.apache.axis.utils.NSStack - NSPop (empty)
+DEBUG main org.apache.axis.transport.http.HTTPSender - <env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"><env:Body><ns1:registrarEvidenciaDigitalResponse xmlns:ns1="http://ws.evidencia.ares.softcol.com.co/"><return><idRegisteredEvidence>568786</idRegisteredEvidence><idRegisteredEvidenceItemMain>568786</idRegisteredEvidenceItemMain><mensajeValidacion>OK</mensajeValidacion><resultadoValidacion>true</resultadoValidacion><signersCertificatesSerials>2188096017545229907742</signersCertificatesSerials><signersCertificatesSubjects>OID.2.5.4.13=CERTIFICADO DE FUNCI&#xD3;N P&#xDA;BLICA - EMITIDO POR CAMERFIRMA COLOMBIA SAS, CN=SIERRA RUIZ SHELLEY LAURETTE, OID.2.5.4.5=52996694, OID.1.3.6.1.4.1.17326.30.11=CC, STREET=CL 26 13 19, ST=&quot;BOGOT&#xC1;, D.C.&quot;, L=&quot;BOGOT&#xC1;, D.C.&quot;, OID.2.5.4.4=SIERRA RUIZ, OID.2.5.4.42=SHELLEY LAURETTE, OID.2.5.4.12=SUBDIRECTORA TECNICA COD 0150 GR 20, OU=SUBDIRECCION DE CONTROL, OID.2.5.4.97=8999990110, O=DEPARTAMENTO NACIONAL DE PLANEACION, C=CO</signersCertificatesSubjects></return></ns1:registrarEvidenciaDigitalResponse></env:Body></env:Envelope>
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(exit00)
+DEBUG main org.apache.axis.transport.http.HTTPSender - Exit:  HTTPDispatchHandler::invoke
+DEBUG main org.apache.axis.SimpleChain - Exit: SimpleChain::invoke
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(semanticCheck00)
+DEBUG main org.apache.axis.handlers.soap.MustUnderstandChecker - Doing SOAP semantic checks...
+DEBUG main org.apache.axis.SOAPPart - Enter: SOAPPart::getAsSOAPEnvelope()
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(currForm)
+DEBUG main org.apache.axis.SOAPPart - current form is FORM_SOAPENVELOPE
+DEBUG main org.apache.axis.client.AxisClient - Exit: AxisClient::invoke
+DEBUG main org.apache.axis.SOAPPart - Enter: SOAPPart::getAsSOAPEnvelope()
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(currForm)
+DEBUG main org.apache.axis.SOAPPart - current form is FORM_SOAPENVELOPE
+DEBUG main org.apache.axis.client.Call - Exit: Call::invoke()
+DEBUG main org.apache.axis.SOAPPart - Enter: SOAPPart::getAsSOAPEnvelope()
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(currForm)
+DEBUG main org.apache.axis.SOAPPart - current form is FORM_SOAPENVELOPE
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(pushHandler00)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Pushing handler org.apache.axis.message.EnvelopeHandler@4d9e68d0
+DEBUG main org.apache.axis.encoding.DeserializationContext - Enter: DeserializationContext::startPrefixMapping(ns1, http://ws.evidencia.ares.softcol.com.co/)
+DEBUG main org.apache.axis.utils.NSStack - NSPush (32)
+DEBUG main org.apache.axis.utils.NSStack - NSPush (32)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Exit: DeserializationContext::startPrefixMapping()
+DEBUG main org.apache.axis.encoding.DeserializationContext - Enter: DeserializationContext::startElement(http://ws.evidencia.ares.softcol.com.co/, registrarEvidenciaDigitalResponse)
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(pushHandler00)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Pushing handler org.apache.axis.message.RPCHandler@42e99e4a
+DEBUG main org.apache.axis.encoding.DeserializationContext - Exit: DeserializationContext::startElement()
+DEBUG main org.apache.axis.encoding.DeserializationContext - Enter: DeserializationContext::startElement(, return)
+DEBUG main org.apache.axis.message.RPCHandler - Enter: RPCHandler.onStartChild()
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(typeFromAttr00)
+DEBUG main org.apache.axis.message.RPCHandler - Type from attributes is:  null
+DEBUG main org.apache.axis.message.RPCHandler - Exit: RPCHandler.onStartChild()
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(pushHandler00)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Pushing handler org.apache.axis.encoding.ser.BeanDeserializer@1a451d4d
+DEBUG main org.apache.axis.utils.NSStack - NSPush (32)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Exit: DeserializationContext::startElement()
+DEBUG main org.apache.axis.encoding.DeserializationContext - Enter: DeserializationContext::startElement(, idRegisteredEvidence)
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(pushHandler00)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Pushing handler org.apache.axis.encoding.ser.SimpleDeserializer@5e0826e7
+DEBUG main org.apache.axis.utils.NSStack - NSPush (32)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Exit: DeserializationContext::startElement()
+DEBUG main org.apache.axis.encoding.DeserializationContext - Enter: DeserializationContext::endElement(, idRegisteredEvidence)
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(popHandler00)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Popping handler org.apache.axis.encoding.ser.SimpleDeserializer@5e0826e7
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(setValueInTarget00)
+DEBUG main org.apache.axis.encoding.DeserializerImpl - Set value 568786 in target org.apache.axis.encoding.ser.BeanPropertyTarget@6e20b53a
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(setValueInTarget00)
+DEBUG main org.apache.axis.encoding.DeserializerImpl - Set value 568786 in target org.apache.axis.encoding.CallbackTarget@71809907
+DEBUG main org.apache.axis.utils.NSStack - NSPop (32)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Popped element stack to org.apache.axis.message.MessageElement:return
+DEBUG main org.apache.axis.encoding.DeserializationContext - Exit: DeserializationContext::endElement()
+DEBUG main org.apache.axis.encoding.DeserializationContext - Enter: DeserializationContext::startElement(, idRegisteredEvidenceItemMain)
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(pushHandler00)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Pushing handler org.apache.axis.encoding.ser.SimpleDeserializer@3ce1e309
+DEBUG main org.apache.axis.utils.NSStack - NSPush (32)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Exit: DeserializationContext::startElement()
+DEBUG main org.apache.axis.encoding.DeserializationContext - Enter: DeserializationContext::endElement(, idRegisteredEvidenceItemMain)
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(popHandler00)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Popping handler org.apache.axis.encoding.ser.SimpleDeserializer@3ce1e309
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(setValueInTarget00)
+DEBUG main org.apache.axis.encoding.DeserializerImpl - Set value 568786 in target org.apache.axis.encoding.ser.BeanPropertyTarget@6aba2b86
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(setValueInTarget00)
+DEBUG main org.apache.axis.encoding.DeserializerImpl - Set value 568786 in target org.apache.axis.encoding.CallbackTarget@158da8e
+DEBUG main org.apache.axis.utils.NSStack - NSPop (32)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Popped element stack to org.apache.axis.message.MessageElement:return
+DEBUG main org.apache.axis.encoding.DeserializationContext - Exit: DeserializationContext::endElement()
+DEBUG main org.apache.axis.encoding.DeserializationContext - Enter: DeserializationContext::startElement(, mensajeValidacion)
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(pushHandler00)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Pushing handler org.apache.axis.encoding.ser.SimpleDeserializer@74e52303
+DEBUG main org.apache.axis.utils.NSStack - NSPush (32)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Exit: DeserializationContext::startElement()
+DEBUG main org.apache.axis.encoding.DeserializationContext - Enter: DeserializationContext::endElement(, mensajeValidacion)
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(popHandler00)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Popping handler org.apache.axis.encoding.ser.SimpleDeserializer@74e52303
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(setValueInTarget00)
+DEBUG main org.apache.axis.encoding.DeserializerImpl - Set value OK in target org.apache.axis.encoding.ser.BeanPropertyTarget@47af7f3d
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(setValueInTarget00)
+DEBUG main org.apache.axis.encoding.DeserializerImpl - Set value OK in target org.apache.axis.encoding.CallbackTarget@7c729a55
+DEBUG main org.apache.axis.utils.NSStack - NSPop (32)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Popped element stack to org.apache.axis.message.MessageElement:return
+DEBUG main org.apache.axis.encoding.DeserializationContext - Exit: DeserializationContext::endElement()
+DEBUG main org.apache.axis.encoding.DeserializationContext - Enter: DeserializationContext::startElement(, resultadoValidacion)
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(pushHandler00)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Pushing handler org.apache.axis.encoding.ser.SimpleDeserializer@3bb9a3ff
+DEBUG main org.apache.axis.utils.NSStack - NSPush (32)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Exit: DeserializationContext::startElement()
+DEBUG main org.apache.axis.encoding.DeserializationContext - Enter: DeserializationContext::endElement(, resultadoValidacion)
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(popHandler00)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Popping handler org.apache.axis.encoding.ser.SimpleDeserializer@3bb9a3ff
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(setValueInTarget00)
+DEBUG main org.apache.axis.encoding.DeserializerImpl - Set value true in target org.apache.axis.encoding.ser.BeanPropertyTarget@661972b0
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(setValueInTarget00)
+DEBUG main org.apache.axis.encoding.DeserializerImpl - Set value true in target org.apache.axis.encoding.CallbackTarget@5af3afd9
+DEBUG main org.apache.axis.utils.NSStack - NSPop (32)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Popped element stack to org.apache.axis.message.MessageElement:return
+DEBUG main org.apache.axis.encoding.DeserializationContext - Exit: DeserializationContext::endElement()
+DEBUG main org.apache.axis.encoding.DeserializationContext - Enter: DeserializationContext::startElement(, signersCertificatesSerials)
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(pushHandler00)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Pushing handler org.apache.axis.encoding.ser.SimpleDeserializer@74e52303
+DEBUG main org.apache.axis.utils.NSStack - NSPush (32)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Exit: DeserializationContext::startElement()
+DEBUG main org.apache.axis.encoding.DeserializationContext - Enter: DeserializationContext::endElement(, signersCertificatesSerials)
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(popHandler00)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Popping handler org.apache.axis.encoding.ser.SimpleDeserializer@74e52303
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(setValueInTarget00)
+DEBUG main org.apache.axis.encoding.DeserializerImpl - Set value 2188096017545229907742 in target org.apache.axis.encoding.ser.BeanPropertyTarget@323b36e0
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(setValueInTarget00)
+DEBUG main org.apache.axis.encoding.DeserializerImpl - Set value 2188096017545229907742 in target org.apache.axis.encoding.CallbackTarget@44ebcd03
+DEBUG main org.apache.axis.utils.NSStack - NSPop (32)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Popped element stack to org.apache.axis.message.MessageElement:return
+DEBUG main org.apache.axis.encoding.DeserializationContext - Exit: DeserializationContext::endElement()
+DEBUG main org.apache.axis.encoding.DeserializationContext - Enter: DeserializationContext::startElement(, signersCertificatesSubjects)
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(pushHandler00)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Pushing handler org.apache.axis.encoding.ser.SimpleDeserializer@74e52303
+DEBUG main org.apache.axis.utils.NSStack - NSPush (32)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Exit: DeserializationContext::startElement()
+DEBUG main org.apache.axis.encoding.DeserializationContext - Enter: DeserializationContext::endElement(, signersCertificatesSubjects)
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(popHandler00)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Popping handler org.apache.axis.encoding.ser.SimpleDeserializer@74e52303
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(setValueInTarget00)
+DEBUG main org.apache.axis.encoding.DeserializerImpl - Set value OID.2.5.4.13=CERTIFICADO DE FUNCIÓN PÚBLICA - EMITIDO POR CAMERFIRMA COLOMBIA SAS, CN=SIERRA RUIZ SHELLEY LAURETTE, OID.2.5.4.5=52996694, OID.1.3.6.1.4.1.17326.30.11=CC, STREET=CL 26 13 19, ST="BOGOTÁ, D.C.", L="BOGOTÁ, D.C.", OID.2.5.4.4=SIERRA RUIZ, OID.2.5.4.42=SHELLEY LAURETTE, OID.2.5.4.12=SUBDIRECTORA TECNICA COD 0150 GR 20, OU=SUBDIRECCION DE CONTROL, OID.2.5.4.97=8999990110, O=DEPARTAMENTO NACIONAL DE PLANEACION, C=CO in target org.apache.axis.encoding.ser.BeanPropertyTarget@694abbdc
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(setValueInTarget00)
+DEBUG main org.apache.axis.encoding.DeserializerImpl - Set value OID.2.5.4.13=CERTIFICADO DE FUNCIÓN PÚBLICA - EMITIDO POR CAMERFIRMA COLOMBIA SAS, CN=SIERRA RUIZ SHELLEY LAURETTE, OID.2.5.4.5=52996694, OID.1.3.6.1.4.1.17326.30.11=CC, STREET=CL 26 13 19, ST="BOGOTÁ, D.C.", L="BOGOTÁ, D.C.", OID.2.5.4.4=SIERRA RUIZ, OID.2.5.4.42=SHELLEY LAURETTE, OID.2.5.4.12=SUBDIRECTORA TECNICA COD 0150 GR 20, OU=SUBDIRECCION DE CONTROL, OID.2.5.4.97=8999990110, O=DEPARTAMENTO NACIONAL DE PLANEACION, C=CO in target org.apache.axis.encoding.CallbackTarget@2e005c4b
+DEBUG main org.apache.axis.utils.NSStack - NSPop (32)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Popped element stack to org.apache.axis.message.MessageElement:return
+DEBUG main org.apache.axis.encoding.DeserializationContext - Exit: DeserializationContext::endElement()
+DEBUG main org.apache.axis.encoding.DeserializationContext - Enter: DeserializationContext::endElement(, return)
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(popHandler00)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Popping handler org.apache.axis.encoding.ser.BeanDeserializer@1a451d4d
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(setValueInTarget00)
+DEBUG main org.apache.axis.encoding.DeserializerImpl - Set value co.com.softcol.ares.evidencia.ws.ServiceResponse@afda48c4 in target org.apache.axis.message.RPCParamTarget@4567f35d
+DEBUG main org.apache.axis.utils.NSStack - NSPop (32)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Popped element stack to org.apache.axis.message.RPCElement:registrarEvidenciaDigitalResponse
+DEBUG main org.apache.axis.encoding.DeserializationContext - Exit: DeserializationContext::endElement()
+DEBUG main org.apache.axis.encoding.DeserializationContext - Enter: DeserializationContext::endElement(http://ws.evidencia.ares.softcol.com.co/, registrarEvidenciaDigitalResponse)
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(popHandler00)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Popping handler org.apache.axis.message.RPCHandler@42e99e4a
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(setProp00)
+DEBUG main org.apache.axis.message.RPCHandler - Setting MessageContext property in RPCHandler.endElement().
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(empty00)
+DEBUG main org.apache.axis.utils.NSStack - NSPop (empty)
+DEBUG main org.apache.axis.encoding.DeserializationContext - Popped element stack to org.apache.axis.message.SOAPBody:Body
+DEBUG main org.apache.axis.encoding.DeserializationContext - Exit: DeserializationContext::endElement()
+DEBUG main org.apache.axis.client.Call - Exit: Call::invoke(RPCElement)
+DEBUG main org.apache.axis.client.Call - Exit: Call::invoke(ns, meth, args)
+DEBUG main org.apache.axis.TIME - axis.Call.invoke: 1094 {http://ws.evidencia.ares.softcol.com.co/}registrarEvidenciaDigital
+DEBUG main org.apache.axis.SOAPPart - Enter: SOAPPart::saveChanges
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(register00)
+DEBUG main org.apache.axis.encoding.SerializationContext - register 'env' - 'http://schemas.xmlsoap.org/soap/envelope/'
+DEBUG main org.apache.axis.utils.NSStack - NSPush (32)
+DEBUG main org.apache.axis.utils.NSStack - NSPush (32)
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(startElem00)
+DEBUG main org.apache.axis.encoding.SerializationContext - Start element [http://schemas.xmlsoap.org/soap/envelope/]:Envelope
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(headers00)
+DEBUG main org.apache.axis.message.SOAPHeader - 0 headers
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(startElem00)
+DEBUG main org.apache.axis.encoding.SerializationContext - Start element [http://schemas.xmlsoap.org/soap/envelope/]:Body
+DEBUG main org.apache.axis.utils.NSStack - NSPush (32)
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(register00)
+DEBUG main org.apache.axis.encoding.SerializationContext - register 'ns1' - 'http://ws.evidencia.ares.softcol.com.co/'
+DEBUG main org.apache.axis.utils.NSStack - NSPush (32)
+DEBUG main org.apache.axis.utils.NSStack - NSPush (32)
+DEBUG main org.apache.axis.message.SAXOutputter - SAXOutputter.startElement ['http://ws.evidencia.ares.softcol.com.co/' registrarEvidenciaDigitalResponse]
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(startElem00)
+DEBUG main org.apache.axis.encoding.SerializationContext - Start element [http://ws.evidencia.ares.softcol.com.co/]:registrarEvidenciaDigitalResponse
+DEBUG main org.apache.axis.message.SAXOutputter - SAXOutputter.startElement ['' return]
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(startElem00)
+DEBUG main org.apache.axis.encoding.SerializationContext - Start element []:return
+DEBUG main org.apache.axis.utils.NSStack - NSPush (32)
+DEBUG main org.apache.axis.message.SAXOutputter - SAXOutputter.startElement ['' idRegisteredEvidence]
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(startElem00)
+DEBUG main org.apache.axis.encoding.SerializationContext - Start element []:idRegisteredEvidence
+DEBUG main org.apache.axis.utils.NSStack - NSPush (32)
+DEBUG main org.apache.axis.message.SAXOutputter - SAXOutputter.characters ['568786']
+DEBUG main org.apache.axis.message.SAXOutputter - SAXOutputter.endElement ['' idRegisteredEvidence]
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(endElem00)
+DEBUG main org.apache.axis.encoding.SerializationContext - End element idRegisteredEvidence
+DEBUG main org.apache.axis.utils.NSStack - NSPop (32)
+DEBUG main org.apache.axis.message.SAXOutputter - SAXOutputter.startElement ['' idRegisteredEvidenceItemMain]
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(startElem00)
+DEBUG main org.apache.axis.encoding.SerializationContext - Start element []:idRegisteredEvidenceItemMain
+DEBUG main org.apache.axis.utils.NSStack - NSPush (32)
+DEBUG main org.apache.axis.message.SAXOutputter - SAXOutputter.characters ['568786']
+DEBUG main org.apache.axis.message.SAXOutputter - SAXOutputter.endElement ['' idRegisteredEvidenceItemMain]
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(endElem00)
+DEBUG main org.apache.axis.encoding.SerializationContext - End element idRegisteredEvidenceItemMain
+DEBUG main org.apache.axis.utils.NSStack - NSPop (32)
+DEBUG main org.apache.axis.message.SAXOutputter - SAXOutputter.startElement ['' mensajeValidacion]
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(startElem00)
+DEBUG main org.apache.axis.encoding.SerializationContext - Start element []:mensajeValidacion
+DEBUG main org.apache.axis.utils.NSStack - NSPush (32)
+DEBUG main org.apache.axis.message.SAXOutputter - SAXOutputter.characters ['OK']
+DEBUG main org.apache.axis.message.SAXOutputter - SAXOutputter.endElement ['' mensajeValidacion]
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(endElem00)
+DEBUG main org.apache.axis.encoding.SerializationContext - End element mensajeValidacion
+DEBUG main org.apache.axis.utils.NSStack - NSPop (32)
+DEBUG main org.apache.axis.message.SAXOutputter - SAXOutputter.startElement ['' resultadoValidacion]
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(startElem00)
+DEBUG main org.apache.axis.encoding.SerializationContext - Start element []:resultadoValidacion
+DEBUG main org.apache.axis.utils.NSStack - NSPush (32)
+DEBUG main org.apache.axis.message.SAXOutputter - SAXOutputter.characters ['true']
+DEBUG main org.apache.axis.message.SAXOutputter - SAXOutputter.endElement ['' resultadoValidacion]
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(endElem00)
+DEBUG main org.apache.axis.encoding.SerializationContext - End element resultadoValidacion
+DEBUG main org.apache.axis.utils.NSStack - NSPop (32)
+DEBUG main org.apache.axis.message.SAXOutputter - SAXOutputter.startElement ['' signersCertificatesSerials]
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(startElem00)
+DEBUG main org.apache.axis.encoding.SerializationContext - Start element []:signersCertificatesSerials
+DEBUG main org.apache.axis.utils.NSStack - NSPush (32)
+DEBUG main org.apache.axis.message.SAXOutputter - SAXOutputter.characters ['2188096017545229907742']
+DEBUG main org.apache.axis.message.SAXOutputter - SAXOutputter.endElement ['' signersCertificatesSerials]
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(endElem00)
+DEBUG main org.apache.axis.encoding.SerializationContext - End element signersCertificatesSerials
+DEBUG main org.apache.axis.utils.NSStack - NSPop (32)
+DEBUG main org.apache.axis.message.SAXOutputter - SAXOutputter.startElement ['' signersCertificatesSubjects]
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(startElem00)
+DEBUG main org.apache.axis.encoding.SerializationContext - Start element []:signersCertificatesSubjects
+DEBUG main org.apache.axis.utils.NSStack - NSPush (32)
+DEBUG main org.apache.axis.message.SAXOutputter - SAXOutputter.characters ['OID.2.5.4.13=CERTIFICADO DE FUNCIÓN PÚBLICA - EMITIDO POR CAMERFIRMA COLOMBIA SAS, CN=SIERRA RUIZ SHELLEY LAURETTE, OID.2.5.4.5=52996694, OID.1.3.6.1.4.1.17326.30.11=CC, STREET=CL 26 13 19, ST=']
+DEBUG main org.apache.axis.message.SAXOutputter - SAXOutputter.characters ['"']
+DEBUG main org.apache.axis.message.SAXOutputter - SAXOutputter.characters ['BOGOTÁ, D.C.']
+DEBUG main org.apache.axis.message.SAXOutputter - SAXOutputter.characters ['"']
+DEBUG main org.apache.axis.message.SAXOutputter - SAXOutputter.characters [', L=']
+DEBUG main org.apache.axis.message.SAXOutputter - SAXOutputter.characters ['"']
+DEBUG main org.apache.axis.message.SAXOutputter - SAXOutputter.characters ['BOGOTÁ, D.C.']
+DEBUG main org.apache.axis.message.SAXOutputter - SAXOutputter.characters ['"']
+DEBUG main org.apache.axis.message.SAXOutputter - SAXOutputter.characters [', OID.2.5.4.4=SIERRA RUIZ, OID.2.5.4.42=SHELLEY LAURETTE, OID.2.5.4.12=SUBDIRECTORA TECNICA COD 0150 GR 20, OU=SUBDIRECCION DE CONTROL, OID.2.5.4.97=8999990110, O=DEPARTAMENTO NACIONAL DE PLANEACION, C=CO']
+DEBUG main org.apache.axis.message.SAXOutputter - SAXOutputter.endElement ['' signersCertificatesSubjects]
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(endElem00)
+DEBUG main org.apache.axis.encoding.SerializationContext - End element signersCertificatesSubjects
+DEBUG main org.apache.axis.utils.NSStack - NSPop (32)
+DEBUG main org.apache.axis.message.SAXOutputter - SAXOutputter.endElement ['' return]
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(endElem00)
+DEBUG main org.apache.axis.encoding.SerializationContext - End element return
+DEBUG main org.apache.axis.utils.NSStack - NSPop (32)
+DEBUG main org.apache.axis.message.SAXOutputter - SAXOutputter.endElement ['http://ws.evidencia.ares.softcol.com.co/' registrarEvidenciaDigitalResponse]
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(endElem00)
+DEBUG main org.apache.axis.encoding.SerializationContext - End element ns1:registrarEvidenciaDigitalResponse
+DEBUG main org.apache.axis.utils.NSStack - NSPop (32)
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(endElem00)
+DEBUG main org.apache.axis.encoding.SerializationContext - End element env:Body
+DEBUG main org.apache.axis.utils.NSStack - NSPop (32)
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(endElem00)
+DEBUG main org.apache.axis.encoding.SerializationContext - End element env:Envelope
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(empty00)
+DEBUG main org.apache.axis.utils.NSStack - NSPop (empty)
+DEBUG main org.apache.axis.i18n.ProjectResourceBundle - org.apache.axis.i18n.resource::handleGetObject(setMsgForm)
+DEBUG main org.apache.axis.SOAPPart - Setting current message form to: FORM_OPTIMIZED (currentMessage is now org.apache.axis.utils.ByteArray)
+DEBUG main org.apache.axis.SOAPPart - Exit: SOAPPart::saveChanges(): org.apache.axis.utils.ByteArray@5ffead27
+INFO main co.com.sc.orfeo.SCOrfeo - Digital evidence recorded under id: 568786

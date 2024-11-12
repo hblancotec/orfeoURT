@@ -1,0 +1,3 @@
+D:\php-5.3.29-Win32-VC9-x86\php-win.exe -f D:\httpd-2.4.20-x86-r2\htdocs\orfeo\alarmas_radicados.php >> E:\Apache2.2\htdocs\orfeo\alarmas.log
+D:\php-5.3.29-Win32-VC9-x86\php-win.exe -f D:\httpd-2.4.20-x86-r2\htdocs\orfeo\alertasDNP.php >> E:\Apache2.2\htdocs\orfeo\alertasDNP.log
+D:\php-5.3.29-Win32-VC9-x86\php-win.exe -f D:\httpd-2.4.20-x86-r2\htdocs\orfeo\alarmas_expedientes.php >> E:\Apache2.2\htdocs\orfeo\alarmasExpedientes.log

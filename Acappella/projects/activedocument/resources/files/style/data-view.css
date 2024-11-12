@@ -1,0 +1,65 @@
+/*
+ * Ext JS Library 2.2
+ * Copyright(c) 2006-2008, Ext JS, LLC.
+ * licensing@extjs.com
+ * 
+ * http://extjs.com/license
+ */
+.x-panel-body{
+	background: white;
+	font: 11px Arial, Helvetica, sans-serif;
+}
+
+.thumb{
+	font: 12px Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        border:1px solid #dddddd white;
+        background: white;
+}
+
+
+.thumb-wrap{
+        padding: 3px;
+        font: 12px Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        border:1px solid #dddddd white;
+}
+
+.thumb-wrap1{
+        padding: 3px;
+        font: 12px Arial, Helvetica, sans-serif;
+        font-weight: bold;                
+        color: blue;
+}
+
+.thumb-wrap span{
+	display: block;
+	overflow: hidden;
+	text-align: center;
+}
+
+.x-view-over{
+    border:1px solid #dddddd;
+    background: #efefef url('images/default/grid/row-over.gif') repeat-x left top;
+    padding: 1px;
+}
+
+.x-view-selected{
+	background: #eff5fb url('images/default/grid/mso-hd.gif') repeat-x left top;
+	border:1px solid #eff5fb;
+	padding: 1px;
+}
+
+.x-view-selected .thumb{
+	background:transparent;
+}
+
+
+.loading-indicator {
+	font-size:11px;
+	background-image:url('images/default/grid/loading.gif');
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left:20px;
+	margin:10px;
+}

@@ -1,0 +1,20 @@
+php_flag display_errors Off
+php_value error_reporting 9999
+php_value max_input_time 10800
+php_value max_execution_time 10800
+php_flag  short_open_tag On
+php_flag session.use_cookies on
+php_flag register_globals Off
+php_value default_charset UTF-8
+php_value post_max_size 150M
+
+RewriteEngine On
+#RewriteBase /mvc/
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-lSoapFault
+
+RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]
+
+LimitRequestBody 10240000

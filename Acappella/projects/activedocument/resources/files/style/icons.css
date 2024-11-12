@@ -1,0 +1,36 @@
+/*
+ * Ext JS Library 2.1
+ * Copyright(c) 2006-2008, Ext JS, LLC.
+ * licensing@extjs.com
+ * 
+ * http://extjs.com/license
+ */
+
+button.icon_new {
+	background-image: url(images/default/dd/drop-add.gif);
+        background-repeat: no-repeat;
+}
+
+
+button.icon_delete {
+	background-image: url(images/default/dd/drop-no.gif);
+        background-repeat: no-repeat;
+}
+
+
+button.icon_return {
+	background-image: url(images/default/qtip/close.gif);
+        background-repeat: no-repeat;
+}
+
+
+button.icon_arhive {
+	background-image: url(images/fam/application_go.png);
+        background-repeat: no-repeat;
+}
+
+
+button.icon_print {
+	background-image: url(images/silk/icons/printer.png);
+        background-repeat: no-repeat;
+}

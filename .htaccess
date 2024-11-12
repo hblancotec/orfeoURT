@@ -1,0 +1,47 @@
+php_value include_path ".;E:/OI_OrfeoPHP7_64/orfeo/lib/;E:/OI_OrfeoPHP7_64/orfeo/pear/"
+
+#15 MB... DEBE estar expresado en Bytes. Respuesta Rápida tx/txOrfeo.php
+#No debe sobrepasar 15MB. Gmail y outlook no acepta mails pesados. 4-72 Email certificado no mas de 15MB total el envio del correo.
+php_value upload_max_filesize 31500000
+php_flag display_errors Off
+php_flag allow_call_time_pass_reference on
+php_value max_input_time 21600
+php_value max_execution_time 21600
+php_value post_max_size 500M
+php_value memory_limit 1024M
+php_value session.save_path "E:\\sessionesorfeo\\"
+php_value session.bug_compat_42 On
+php_flag session.bug_compat_warn On
+php_value session.cookie_lifetime 14400
+php_value session.cache_limiter nocache
+php_value session.cache_expire 600
+php_value session.gc_maxlifetime 28800
+php_flag session.use_only_cookies Off
+php_flag session.use_cookies On
+php_value session.referer_check "https://orfeo.urt.gov.co/"
+php_flag soap.wsdl_cache_enabled off
+#php_value error_reporting 6135
+Options FollowSymLinks
+AddType  application/vnd.openxmlformats  .docx .pptx .xlsx
+php_value max_input_vars 20000
+
+#LimitRequestLine 8190
+#LimitRequestFields 50
+#LimitRequestFieldSize 4094
+LimitRequestBody 31500000
+<IfModule mod_headers.c>
+#	Clickjacking Attack
+	Header append X-FRAME-OPTIONS "DENY"
+#	ETag
+	Header unset ETag
+    Header set Cache-Control "max-age=0, no-cache, no-store, must-revalidate"
+    Header set Pragma "no-cache"
+    Header set Note "CACHING IS DISABLED ON LOCALHOST"
+	Header set Expires "Wed, 11 Jan 1984 05:00:00 GMT"
+#	X-XSS Protection
+	Header set X-XSS-Protection "1; mode=block"
+#	Security Headers - X-Content-Type: nosniff
+	Header set X-Content-Type-Options nosniff
+	Header append X-Frame-Options: "SAMEORIGIN"
+	
+</IfModule>

@@ -1,0 +1,183 @@
+<html>
+<head>
+  <META HTTP-EQUIV="Content-Type" content="text/html"; charset="ISO-8859-1" />
+	<META HTTP-EQUIV="Pragma"  CONTENT="no-cache" />
+	<META HTTP-EQUIV="Expires" CONTENT="-1" />	
+	<script type="text/javascript" src="script?filename=Ext.js"></script>
+	<script type="text/javascript" src="script?filename=ext-base.js"></script>
+	<script type="text/javascript" src="script?filename=ext-all-debug.js"></script>	
+	<script type="text/javascript" src="script?filename=ext-lang-es.js"></script>
+	
+	<!-- remote grid  -->
+  <script type="text/javascript" src="script?filename=BufferedGridView.js"></script>    
+  <script type="text/javascript" src="script?filename=BufferedRowSelectionModel.js"></script>    
+  <script type="text/javascript" src="script?filename=BufferedStore.js"></script>    
+  <script type="text/javascript" src="script?filename=BufferedGridToolbar.js"></script>    
+  <script type="text/javascript" src="script?filename=BufferedJsonReader.js"></script>
+	<!-- remote grid  -->    
+	
+	<!-- combobox extendido  -->   
+	<script type="text/javascript" src="script?filename=combobox_ext.js"></script>
+	<link rel="stylesheet" type="text/css" href="css?filename=Ext-ux-form-LovCombo.css">
+  <link rel="stylesheet" type="text/css" href="css?filename=lovcombo.css">
+  <script type="text/javascript" src="script?filename=Ext.ux.form.LovCombo.js"></script>	
+	<script type="text/javascript" src="script?filename=Ext.ux.ThemeCombo.js"></script>	   
+	<!-- combobox extendido  -->    
+	
+	<link rel="stylesheet" type="text/css" href="css?filename=data-view.css">
+	
+	<!-- upload field  -->
+	<link rel="stylesheet" type="text/css" href="css?filename=file-upload.css">
+	<script type="text/javascript" src="script?filename=FileUploadField.js"></script>
+		
+	<link rel="stylesheet" type="text/css" href="css?filename=iconsfu.css">
+	<link rel="stylesheet" type="text/css" href="css?filename=filetree.css"> 	
+	<script type="text/javascript" src="script?filename=Ext.ux.FileUploader.js"></script>		
+	<script type="text/javascript" src="script?filename=Ext.ux.form.BrowseButton.js"></script>
+	<script type="text/javascript" src="script?filename=Ext.ux.UploadPanel.js"></script>	
+  <!-- upload field  -->		
+	
+	<!-- formlayout  -->   
+	<script type="text/javascript" src="script?filename=formLayout.js"></script>
+	<!-- formlayout  -->   
+	
+	<script type="text/javascript" src="script?filename=Ext.ux.Plugin.RemoteComponent.js"></script>
+	<script type="text/javascript" src="script?filename=acappella_extjscore.js"></script>
+	<script type="text/javascript" src="script?filename=acappella_extjsutil.js"></script>	
+	<link rel="stylesheet" type="text/css" href="css?filename=ext-all.css">
+	
+	<link rel="stylesheet" type="text/css" href="css?filename=icons.css">	<style type="text/css">
+	 .x-item-disabled {
+        filter:none;
+        
+        color: black !important;
+
+        -moz-opacity: 100;
+
+        opacity: 1;    
+   }
+  </style>
+  
+	
+  <title>ACappella Framework - Gestion Documental Menu Principal</title>  
+</head>
+<body>
+  <script type="text/javascript">	    
+	    function salirSistema() {
+			   var newdir = window.location.href;
+				 window.location.href = newdir;
+		  } 
+	
+	    Ext.onReady(function() {
+			    //Ext.state.Manager.setProvider(new Ext.state.CookieProvider());
+					Ext.QuickTips.init();
+					//**********************************************************//
+					//**********************************************************//
+			    // layout principal del sistema, con paneles para:
+				  // menu, titulos, pie de pagina, marco derecho				 				 
+			    _layout = new Ext.Panel({
+				     layout : 'border',
+						 id     : '_layout',
+						 items:[
+						         {
+										   region:'north',
+                       contentEl: 'north',
+											 id:'northP',
+                       split:true,
+                       height: 80,
+                       minSize: 80,
+                       maxSize: 100,
+                       collapsible: true,
+											 tbar : [{'text'   : 'Salir Del Sistema',
+                                'iconCls': 'icon_return',
+                                'handler': salirSistema,
+                                'id'     : '_salir'
+																}]                        
+                       ,title:'Sistema de Gestión Documental',
+                       margins:'0 0 0 0'
+                     } ,   
+										 {
+                       region:'south',
+                       contentEl: 'south',
+											 id:'southP',
+                       split:true,
+                       height: 80,
+                       minSize: 80,
+                       maxSize: 200,
+                       collapsible: true,
+                       title:'..',
+                       margins:'0 0 0 0'
+                     },
+										 new Ext.TabPanel({
+                        region:'center',
+												id:'centerP',
+                        deferredRender:false,
+                        activeTab:0,
+                        items:[{
+                          contentEl:'center1',
+													id:'center1P',
+                          title: '..',
+                          closable:false,
+												  autoScroll:true													
+												}]								 
+                     }),
+										 {
+										   region:'west',
+                       id:'westP',
+                       title:' Menu Principal',
+                       split:true,
+                       width: 200,
+                       minSize: 175,
+                       maxSize: 400,
+                       collapsible: true,
+                       margins:'0 0 0 5',
+											 layoutConfig:{animate:true},
+											 autoScroll:true											           
+                     },
+										 {
+										   region:'east',
+                       id:'eastP',
+                       title:'..',
+                       split:true,
+                       width: 200,
+                       minSize: 175,
+                       maxSize: 400,                       
+											 collapsed: true,
+											 collapsible: true,
+                       margins:'0 0 0 5',
+                       layout:'accordion',
+                       layoutConfig:{animate:true}                       
+                     }                        
+                   ]
+            });			
+			   
+         _viewport = new Ext.Viewport({				      
+				      layout  :'anchor',
+							items   : [_layout],
+							plugins : [getRemoteComponentPlugin({url:'loginForm', 
+							                               params:{'name': 'loginWindow'}}, false)]							
+						});
+				 		 				 
+				 var size = _viewport.getSize();
+				 _layout.setHeight(size.height);
+				 _layout.setWidth(size.width);
+			 });	 
+	</script>	
+</head>
+<body>
+	<div id="north">
+  </div>
+  <div id="west">
+	   <div id="west1">
+     </div>
+  </div>
+	 <div id="east">
+  </div>
+  <div id="center">
+  </div>
+	<div id="center1">
+  </div>
+	<div id="south">
+  </div>	 	
+</body>
+</html>

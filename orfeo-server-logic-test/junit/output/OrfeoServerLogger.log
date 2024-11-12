@@ -1,0 +1,708 @@
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo3-1574447729.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Sign and validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Args length 28
+INFO main co.com.sc.orfeo.SCOrfeo - Hash value calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - bgXcnzRk3es4wahuH1jIbYpNCZ9z09nHOZQM74oLadA=
+INFO main co.com.sc.orfeo.SCOrfeo - EcmLGWiQnmAzGlQU6BI6AUPo5CT2UbTMCQdkPTzAu+A=
+INFO main co.com.sc.orfeo.SCOrfeo - RgTkIMD6PdHC1TXa998z1ZNFj2Txy+B56Ywko3QnmlA=
+INFO main co.com.sc.orfeo.SCOrfeo - 0t/M3w4BBNublzM4ms9yLSp/U8DzqAkHqVF+vKzhWg0=
+INFO main co.com.sc.orfeo.SCOrfeo - Waiting for digital signature
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo-1574447809.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo-1574447809.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo1-1574447809.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo1-1574447809.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo2-1574447809.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo2-1574447809.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo3-1574447809.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo3-1574447809.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Sign and validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Args length 28
+INFO main co.com.sc.orfeo.SCOrfeo - Hash value calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - ZGk7jMDTMd8Vh0u3TBRRn23DQIjAVJMrB6Gh04P9Q6M=
+INFO main co.com.sc.orfeo.SCOrfeo - /x5T7ZBzPp5FLN2sN2tzrIYvU82jjoG/o1VejVaIkIc=
+INFO main co.com.sc.orfeo.SCOrfeo - 41voXfgJSXVdPt+erwG0pSNdjYUOoU56t8e5QGL4JQo=
+INFO main co.com.sc.orfeo.SCOrfeo - RgArU3ejmJSg7SVoqoKvLP7sNsWvExEzaGFOn5q1pOA=
+INFO main co.com.sc.orfeo.SCOrfeo - Waiting for digital signature
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo-1574447922.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo-1574447922.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo1-1574447922.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo1-1574447922.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo2-1574447922.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo2-1574447922.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo3-1574447922.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo3-1574447922.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Sign and validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Args length 28
+INFO main co.com.sc.orfeo.SCOrfeo - Hash value calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - /q+q+2KmdScitZxnwl79q+TrB3IGIu7OgUWRZgROGOw=
+INFO main co.com.sc.orfeo.SCOrfeo - NXOXbDhIzXChpZmH2sCVE5xM4vN7Jh4x7/qi4UKXS/k=
+INFO main co.com.sc.orfeo.SCOrfeo - 6bJJhPX93odiGwoZk44chvA8QVy8pDz/kKf8jy+C22Y=
+INFO main co.com.sc.orfeo.SCOrfeo - FB9PdLYt7xsOHFGIuCQVLQ6TTgNpPqqZt8TCIw6ZAPM=
+INFO main co.com.sc.orfeo.SCOrfeo - Waiting for digital signature
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo-1574448097.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo-1574448097.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo1-1574448097.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo1-1574448097.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo2-1574448097.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo2-1574448097.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo3-1574448097.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo3-1574448097.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Sign and validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Args length 28
+INFO main co.com.sc.orfeo.SCOrfeo - Hash value calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - mShGcftocBABL8HNWCiiAHgk8PUUNIMxRcSOwmKI+6k=
+INFO main co.com.sc.orfeo.SCOrfeo - A+9dEUyVd3AaOuXjgcxLjSNOFebrjJxw2P0VP18Aefw=
+INFO main co.com.sc.orfeo.SCOrfeo - qn+HeT+myfnYbpr8gKdi5JIQg9O0AM9sUbulSxCDi8g=
+INFO main co.com.sc.orfeo.SCOrfeo - /ig/MyzNSoaILfWo3rhMzUpl2G52ju4g8xUDFE/xMvk=
+INFO main co.com.sc.orfeo.SCOrfeo - Waiting for digital signature
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo-1574448245.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo-1574448245.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo1-1574448245.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo1-1574448245.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo2-1574448245.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo2-1574448245.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo3-1574448245.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo3-1574448245.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Sign and validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Args length 28
+INFO main co.com.sc.orfeo.SCOrfeo - Hash value calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - ERYQEEhYFzBFidSuguun8KZP8Mwa9MCbQh/ywfudakk=
+INFO main co.com.sc.orfeo.SCOrfeo - nwpFarP31OEzwIHDOcuw3TzkRVFJ99oUaZxlsbm+Siw=
+INFO main co.com.sc.orfeo.SCOrfeo - 4q9IS3UCsVNxErBCD6An86FzSoMPyeQ6Ra2Oe8WWuw8=
+INFO main co.com.sc.orfeo.SCOrfeo - vKBrw1bFEXISUuaJp5Q+tGQLKmYc8NIfMUI8Y799swY=
+INFO main co.com.sc.orfeo.SCOrfeo - Waiting for digital signature
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo-1574449800.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo-1574449800.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo1-1574449800.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo1-1574449800.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo2-1574449800.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo2-1574449800.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo3-1574449800.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo3-1574449800.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Sign and validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Args length 28
+INFO main co.com.sc.orfeo.SCOrfeo - Hash value calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - QP+MACxVhvujirCk3y5P8QakhM1WbicnnDvcPSL2iqU=
+INFO main co.com.sc.orfeo.SCOrfeo - KxVVhc21Q6escpE1VO13Pcm/5Ndb5v9RwUy0GCIBqFg=
+INFO main co.com.sc.orfeo.SCOrfeo - RHFW3ef76BoBRKoXJGGlc02WZ//8IzN0tDWjEP9GCzE=
+INFO main co.com.sc.orfeo.SCOrfeo - USd2IMZmxP1XNODhuGLPz66gBM9pZBUPH8z0TLGq8rw=
+INFO main co.com.sc.orfeo.SCOrfeo - Waiting for digital signature
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo-1574449902.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo-1574449902.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo1-1574449902.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo1-1574449902.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo2-1574449902.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo2-1574449902.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo3-1574449902.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo3-1574449902.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Sign and validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Args length 29
+INFO main co.com.sc.orfeo.SCOrfeo - Hash value calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - UWUVm3IYCCO++OZpE5b6t3pc32sVc4rRR+GnsyheZf0=
+INFO main co.com.sc.orfeo.SCOrfeo - J8FL1g0THcew/NkgIxPGJYeyC/p+FrFrqM4ZLZmT8dE=
+INFO main co.com.sc.orfeo.SCOrfeo - OwaGcVqqAHJdgxo8l+8aC2lMpm4rGIxhJFJqtwdwEBQ=
+INFO main co.com.sc.orfeo.SCOrfeo - sdT5YdohZCGDwTELL0z3iIlMkkW0bMY3zOlYA/VUTf4=
+INFO main co.com.sc.orfeo.SCOrfeo - Waiting for digital signature
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo-1574455595.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo-1574455595.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo1-1574455595.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo1-1574455595.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo2-1574455595.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo2-1574455595.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo3-1574455595.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo3-1574455595.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Sign and validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Args length 29
+INFO main co.com.sc.orfeo.SCOrfeo - Hash value calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Suvo/OxPIa/5edqXfol4lASsNrLBEy9MWMPbNT6xZ3g=
+INFO main co.com.sc.orfeo.SCOrfeo - WuPuuFsekf2L283mp1dP6N9KXiSAYnNTnhxuCv5eUT4=
+INFO main co.com.sc.orfeo.SCOrfeo - W4WIJmgoUtIECxHZoOP5/XOa3xos4WJ8qU3Rs+5cgC0=
+INFO main co.com.sc.orfeo.SCOrfeo - qirj/w/qmm35ikKqYNAiQuoCGSMdDJ9dREdHvzbcG2k=
+INFO main co.com.sc.orfeo.SCOrfeo - Waiting for digital signature
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo-1574455857.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo-1574455857.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo1-1574455857.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo1-1574455857.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo2-1574455857.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo2-1574455857.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo3-1574455857.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo3-1574455857.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Sign and validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Args length 29
+INFO main co.com.sc.orfeo.SCOrfeo - Hash value calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - OK3BPrGAVnu+bd9JUXVbhIaD7cOfeJS11GTfdmhCuPw=
+INFO main co.com.sc.orfeo.SCOrfeo - pHpVK7I5AVfOAW9DkedSjVsrSW6rwdfryCPLcXEMd28=
+INFO main co.com.sc.orfeo.SCOrfeo - F9+XEJ5+mDuCgUJHWeMUNdZuPY9wGrXAvG4Xlbx11RI=
+INFO main co.com.sc.orfeo.SCOrfeo - VyIIE9tl8G0HHsIYmppMJpjBmD5mi+qQ/YHCHYrZOWQ=
+INFO main co.com.sc.orfeo.SCOrfeo - Waiting for digital signature
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo-1574455959.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo-1574455959.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo1-1574455959.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo1-1574455959.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo2-1574455959.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo2-1574455959.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo3-1574455959.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo3-1574455959.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Sign and validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Args length 29
+INFO main co.com.sc.orfeo.SCOrfeo - Hash value calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - 4lgMNinUg/wMLbHEm1MnbL0MsvQIlFyvnuxQBDnLI3I=
+INFO main co.com.sc.orfeo.SCOrfeo - Uhiy704bd1GmuU9UgE731ZskfZmFNLE1J67PJbw+GEU=
+INFO main co.com.sc.orfeo.SCOrfeo - EQZ9Gz8x2LgmUQuLMhBuR3oaGpcjOjkRXAitsm1/NhY=
+INFO main co.com.sc.orfeo.SCOrfeo - y9j8bm7wfVxd8/3nNcTC83HU58kbTLgWX+oKVaZmjgY=
+INFO main co.com.sc.orfeo.SCOrfeo - Waiting for digital signature
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo-1574456181.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo-1574456181.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo1-1574456181.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo1-1574456181.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo2-1574456181.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo2-1574456181.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo3-1574456181.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo3-1574456181.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Sign and validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Args length 29
+INFO main co.com.sc.orfeo.SCOrfeo - Hash value calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - 2noF5u2GlJvWg5om7zbf5K8bcKvQSUcXyyzZ5EszvLc=
+INFO main co.com.sc.orfeo.SCOrfeo - iKVINx+P7i/995lnDTlq3KGqHXRc/jDq5/KP3L1KGYI=
+INFO main co.com.sc.orfeo.SCOrfeo - EpzvFj7ReL+r5O347YaCuocsOhYnXCvXFKOqL03qkgI=
+INFO main co.com.sc.orfeo.SCOrfeo - v5bYoJArWC6sLXvxdG192z83+nZtr07k2Roezu0hCbg=
+INFO main co.com.sc.orfeo.SCOrfeo - Waiting for digital signature
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo-1574456242.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo-1574456242.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo1-1574456242.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo1-1574456242.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo2-1574456242.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo2-1574456242.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo3-1574456242.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo3-1574456242.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Sign and validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Args length 29
+INFO main co.com.sc.orfeo.SCOrfeo - Hash value calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - i5oDOfa8FdNkExKmhn4oL8g05u0Pb9b83jk78kUmmOk=
+INFO main co.com.sc.orfeo.SCOrfeo - Hh26YfIxpTgRtcHeG7b4OTdsS+tOduw2f2ohSOWIMcc=
+INFO main co.com.sc.orfeo.SCOrfeo - OQ2k8Hxml65twF94Y5lcFAq2CJFaTJWk+zcLayyqas4=
+INFO main co.com.sc.orfeo.SCOrfeo - n96Hh2c/8jJcI+T19vInK2dvBp1qpYr4aRdutvxUt5U=
+INFO main co.com.sc.orfeo.SCOrfeo - Waiting for digital signature
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo-1574456403.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo-1574456403.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo1-1574456403.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo1-1574456403.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo2-1574456403.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo2-1574456403.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo3-1574456403.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo3-1574456403.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Sign and validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Args length 29
+INFO main co.com.sc.orfeo.SCOrfeo - Hash value calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - ihdtBoLw5Zn+i5p7Wz3infI+eSdLSzdcMFEL74ypk5A=
+INFO main co.com.sc.orfeo.SCOrfeo - +3G8iAqIUMT1n8mw7APmPUwnIOq39nVHFYSKKWHD+Pg=
+INFO main co.com.sc.orfeo.SCOrfeo - veSOwWPBCJxX5qKnA+N1izkbyHUX8Sy9HU27dTxN+ow=
+INFO main co.com.sc.orfeo.SCOrfeo - KHt4SenGV/qfUlXLpn8Fl6BYm4HzzHy7e2Mawh908T8=
+INFO main co.com.sc.orfeo.SCOrfeo - Waiting for digital signature
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo-1574456485.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo-1574456485.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo1-1574456485.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo1-1574456485.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo2-1574456485.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo2-1574456485.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo3-1574456485.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo3-1574456485.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Sign and validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Args length 29
+INFO main co.com.sc.orfeo.SCOrfeo - Hash value calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - o7QHNTrKiXqDmP1EaCvQWyFR4aUT3tOVmXvWG6554D8=
+INFO main co.com.sc.orfeo.SCOrfeo - 57UVRsoKzHtRyHK2i156Br/aw2RbjfhZ7h+3LopaYZ0=
+INFO main co.com.sc.orfeo.SCOrfeo - htvVohFbz7s30sEsJgCkCoPQeIj0aFYhnj3q7pwms3A=
+INFO main co.com.sc.orfeo.SCOrfeo - Wj+/hFi76OH8aBlhiH31DBS3xQWgNpNc9u/KsJRve/w=
+INFO main co.com.sc.orfeo.SCOrfeo - Waiting for digital signature
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo-1574456677.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo-1574456677.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo1-1574456677.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo1-1574456677.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo2-1574456677.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo2-1574456677.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo3-1574456677.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo3-1574456677.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Sign and validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Args length 28
+INFO main co.com.sc.orfeo.SCOrfeo - Hash value calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - 5Sk/hDdaKLlm87MSPSoVB/rJCuqV+Asp9ioE6DLzDdk=
+INFO main co.com.sc.orfeo.SCOrfeo - oVqzi3Cao7fFfIm/bUEDypFM2M48kEjvQOnyOhAtmxE=
+ERROR main co.com.sc.orfeo.SCOrfeo - Not managed exception. Inner exception: A signature image should be present when rendering mode is graphic and description.
+java.lang.IllegalStateException: A signature image should be present when rendering mode is graphic and description.
+	at com.itextpdf.text.pdf.PdfSignatureAppearance.getAppearance(PdfSignatureAppearance.java:994)
+	at com.itextpdf.text.pdf.PdfSignatureAppearance.preClose(PdfSignatureAppearance.java:1282)
+	at co.com.sc.orfeo.utils.PdfHashGenerator.preSign(PdfHashGenerator.java:197)
+	at co.com.sc.orfeo.core.implementation.PdfHash.executeHelper(PdfHash.java:155)
+	at co.com.sc.orfeo.core.implementation.PdfHash.execute(PdfHash.java:52)
+	at co.com.sc.orfeo.core.implementation.AllPdfValidation.execute(AllPdfValidation.java:65)
+	at co.com.sc.orfeo.SCOrfeo.execute(SCOrfeo.java:45)
+	at co.com.sc.orfeo.SCOrfeo.main(SCOrfeo.java:57)
+INFO main co.com.sc.orfeo.SCOrfeo - Sign and validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Args length 28
+INFO main co.com.sc.orfeo.SCOrfeo - Hash value calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - dmh5U9U05kOu0UZ4+9SLf4MlS2pL8p/ISEA68yPc7G8=
+INFO main co.com.sc.orfeo.SCOrfeo - DYvjzXHUhNBdg45qhS5zLROQYPmHWYuNbV5SQPc90pg=
+INFO main co.com.sc.orfeo.SCOrfeo - 5ePoowTh8gygX0d4g08fJX9z5YUh+EPK+aiFnD7nHl4=
+INFO main co.com.sc.orfeo.SCOrfeo - ZZT/4Z0aXE8P4H7s67iOfhC3TQx2fVE5yRdEF95pR00=
+INFO main co.com.sc.orfeo.SCOrfeo - Waiting for digital signature
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo-1574457237.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo-1574457237.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo1-1574457237.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo1-1574457237.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo2-1574457237.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo2-1574457237.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo3-1574457237.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo3-1574457237.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Sign and validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Args length 27
+INFO main co.com.sc.orfeo.SCOrfeo - Hash value calculation logic invoked
+ERROR main co.com.sc.orfeo.utils.PdfCustomSignatureAppearance - Error trying to set a number : false
+java.lang.NumberFormatException: For input string: "false"
+	at java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at co.com.sc.orfeo.utils.PdfCustomSignatureAppearance.setIntValueToAttribute(PdfCustomSignatureAppearance.java:277)
+	at co.com.sc.orfeo.utils.PdfCustomSignatureAppearance.setQrCodeSize(PdfCustomSignatureAppearance.java:380)
+	at co.com.sc.orfeo.core.implementation.PdfHash.setAppearance(PdfHash.java:88)
+	at co.com.sc.orfeo.core.implementation.PdfHash.executeHelper(PdfHash.java:145)
+	at co.com.sc.orfeo.core.implementation.PdfHash.execute(PdfHash.java:52)
+	at co.com.sc.orfeo.core.implementation.AllPdfValidation.execute(AllPdfValidation.java:65)
+	at co.com.sc.orfeo.SCOrfeo.execute(SCOrfeo.java:45)
+	at co.com.sc.orfeo.SCOrfeo.main(SCOrfeo.java:57)
+ERROR main co.com.sc.orfeo.utils.PdfCustomSignatureAppearance - Error trying to set a number : [firma]
+java.lang.NumberFormatException: For input string: "[firma]"
+	at java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at co.com.sc.orfeo.utils.PdfCustomSignatureAppearance.setIntValueToAttribute(PdfCustomSignatureAppearance.java:277)
+	at co.com.sc.orfeo.utils.PdfCustomSignatureAppearance.setPage(PdfCustomSignatureAppearance.java:396)
+	at co.com.sc.orfeo.core.implementation.PdfHash.setAppearance(PdfHash.java:94)
+	at co.com.sc.orfeo.core.implementation.PdfHash.executeHelper(PdfHash.java:145)
+	at co.com.sc.orfeo.core.implementation.PdfHash.execute(PdfHash.java:52)
+	at co.com.sc.orfeo.core.implementation.AllPdfValidation.execute(AllPdfValidation.java:65)
+	at co.com.sc.orfeo.SCOrfeo.execute(SCOrfeo.java:45)
+	at co.com.sc.orfeo.SCOrfeo.main(SCOrfeo.java:57)
+ERROR main co.com.sc.orfeo.utils.PdfCustomSignatureAppearance - Error trying to set a number : GRAPHIC_AND_DESCRIPTION
+java.lang.NumberFormatException: For input string: "GRAPHIC_AND_DESCRIPTION"
+	at java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at co.com.sc.orfeo.utils.PdfCustomSignatureAppearance.setIntValueToAttribute(PdfCustomSignatureAppearance.java:277)
+	at co.com.sc.orfeo.utils.PdfCustomSignatureAppearance.setAbsoluteSize(PdfCustomSignatureAppearance.java:428)
+	at co.com.sc.orfeo.core.implementation.PdfHash.setAppearance(PdfHash.java:109)
+	at co.com.sc.orfeo.core.implementation.PdfHash.executeHelper(PdfHash.java:145)
+	at co.com.sc.orfeo.core.implementation.PdfHash.execute(PdfHash.java:52)
+	at co.com.sc.orfeo.core.implementation.AllPdfValidation.execute(AllPdfValidation.java:65)
+	at co.com.sc.orfeo.SCOrfeo.execute(SCOrfeo.java:45)
+	at co.com.sc.orfeo.SCOrfeo.main(SCOrfeo.java:57)
+INFO main co.com.sc.orfeo.SCOrfeo - NvrPNZn/gQTtuusgNUQVRKEYnwkU5JFB8OGthieHI1M=
+INFO main co.com.sc.orfeo.SCOrfeo - Sign and validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Args length 27
+INFO main co.com.sc.orfeo.SCOrfeo - Hash value calculation logic invoked
+ERROR main co.com.sc.orfeo.utils.PdfCustomSignatureAppearance - Error trying to set a number : false
+java.lang.NumberFormatException: For input string: "false"
+	at java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at co.com.sc.orfeo.utils.PdfCustomSignatureAppearance.setIntValueToAttribute(PdfCustomSignatureAppearance.java:277)
+	at co.com.sc.orfeo.utils.PdfCustomSignatureAppearance.setQrCodeSize(PdfCustomSignatureAppearance.java:380)
+	at co.com.sc.orfeo.core.implementation.PdfHash.setAppearance(PdfHash.java:88)
+	at co.com.sc.orfeo.core.implementation.PdfHash.executeHelper(PdfHash.java:145)
+	at co.com.sc.orfeo.core.implementation.PdfHash.execute(PdfHash.java:52)
+	at co.com.sc.orfeo.core.implementation.AllPdfValidation.execute(AllPdfValidation.java:65)
+	at co.com.sc.orfeo.SCOrfeo.execute(SCOrfeo.java:45)
+	at co.com.sc.orfeo.SCOrfeo.main(SCOrfeo.java:57)
+ERROR main co.com.sc.orfeo.utils.PdfCustomSignatureAppearance - Error trying to set a number : [firma]
+java.lang.NumberFormatException: For input string: "[firma]"
+	at java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at co.com.sc.orfeo.utils.PdfCustomSignatureAppearance.setIntValueToAttribute(PdfCustomSignatureAppearance.java:277)
+	at co.com.sc.orfeo.utils.PdfCustomSignatureAppearance.setPage(PdfCustomSignatureAppearance.java:396)
+	at co.com.sc.orfeo.core.implementation.PdfHash.setAppearance(PdfHash.java:94)
+	at co.com.sc.orfeo.core.implementation.PdfHash.executeHelper(PdfHash.java:145)
+	at co.com.sc.orfeo.core.implementation.PdfHash.execute(PdfHash.java:52)
+	at co.com.sc.orfeo.core.implementation.AllPdfValidation.execute(AllPdfValidation.java:65)
+	at co.com.sc.orfeo.SCOrfeo.execute(SCOrfeo.java:45)
+	at co.com.sc.orfeo.SCOrfeo.main(SCOrfeo.java:57)
+ERROR main co.com.sc.orfeo.utils.PdfCustomSignatureAppearance - Error trying to set a number : GRAPHIC_AND_DESCRIPTION
+java.lang.NumberFormatException: For input string: "GRAPHIC_AND_DESCRIPTION"
+	at java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at co.com.sc.orfeo.utils.PdfCustomSignatureAppearance.setIntValueToAttribute(PdfCustomSignatureAppearance.java:277)
+	at co.com.sc.orfeo.utils.PdfCustomSignatureAppearance.setAbsoluteSize(PdfCustomSignatureAppearance.java:428)
+	at co.com.sc.orfeo.core.implementation.PdfHash.setAppearance(PdfHash.java:109)
+	at co.com.sc.orfeo.core.implementation.PdfHash.executeHelper(PdfHash.java:145)
+	at co.com.sc.orfeo.core.implementation.PdfHash.execute(PdfHash.java:52)
+	at co.com.sc.orfeo.core.implementation.AllPdfValidation.execute(AllPdfValidation.java:65)
+	at co.com.sc.orfeo.SCOrfeo.execute(SCOrfeo.java:45)
+	at co.com.sc.orfeo.SCOrfeo.main(SCOrfeo.java:57)
+INFO main co.com.sc.orfeo.SCOrfeo - 5QfSfnlUYuA27fAV8CaCFQFJa5mfFH22D97taFtF5KU=
+INFO main co.com.sc.orfeo.SCOrfeo - Sign and validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Args length 27
+INFO main co.com.sc.orfeo.SCOrfeo - Hash value calculation logic invoked
+ERROR main co.com.sc.orfeo.utils.PdfCustomSignatureAppearance - Error trying to set a number : false
+java.lang.NumberFormatException: For input string: "false"
+	at java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at co.com.sc.orfeo.utils.PdfCustomSignatureAppearance.setIntValueToAttribute(PdfCustomSignatureAppearance.java:277)
+	at co.com.sc.orfeo.utils.PdfCustomSignatureAppearance.setQrCodeSize(PdfCustomSignatureAppearance.java:380)
+	at co.com.sc.orfeo.core.implementation.PdfHash.setAppearance(PdfHash.java:88)
+	at co.com.sc.orfeo.core.implementation.PdfHash.executeHelper(PdfHash.java:145)
+	at co.com.sc.orfeo.core.implementation.PdfHash.execute(PdfHash.java:52)
+	at co.com.sc.orfeo.core.implementation.AllPdfValidation.execute(AllPdfValidation.java:65)
+	at co.com.sc.orfeo.SCOrfeo.execute(SCOrfeo.java:45)
+	at co.com.sc.orfeo.SCOrfeo.main(SCOrfeo.java:57)
+ERROR main co.com.sc.orfeo.utils.PdfCustomSignatureAppearance - Error trying to set a number : [firma]
+java.lang.NumberFormatException: For input string: "[firma]"
+	at java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at co.com.sc.orfeo.utils.PdfCustomSignatureAppearance.setIntValueToAttribute(PdfCustomSignatureAppearance.java:277)
+	at co.com.sc.orfeo.utils.PdfCustomSignatureAppearance.setPage(PdfCustomSignatureAppearance.java:396)
+	at co.com.sc.orfeo.core.implementation.PdfHash.setAppearance(PdfHash.java:94)
+	at co.com.sc.orfeo.core.implementation.PdfHash.executeHelper(PdfHash.java:145)
+	at co.com.sc.orfeo.core.implementation.PdfHash.execute(PdfHash.java:52)
+	at co.com.sc.orfeo.core.implementation.AllPdfValidation.execute(AllPdfValidation.java:65)
+	at co.com.sc.orfeo.SCOrfeo.execute(SCOrfeo.java:45)
+	at co.com.sc.orfeo.SCOrfeo.main(SCOrfeo.java:57)
+ERROR main co.com.sc.orfeo.utils.PdfCustomSignatureAppearance - Error trying to set a number : GRAPHIC_AND_DESCRIPTION
+java.lang.NumberFormatException: For input string: "GRAPHIC_AND_DESCRIPTION"
+	at java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at co.com.sc.orfeo.utils.PdfCustomSignatureAppearance.setIntValueToAttribute(PdfCustomSignatureAppearance.java:277)
+	at co.com.sc.orfeo.utils.PdfCustomSignatureAppearance.setAbsoluteSize(PdfCustomSignatureAppearance.java:428)
+	at co.com.sc.orfeo.core.implementation.PdfHash.setAppearance(PdfHash.java:109)
+	at co.com.sc.orfeo.core.implementation.PdfHash.executeHelper(PdfHash.java:145)
+	at co.com.sc.orfeo.core.implementation.PdfHash.execute(PdfHash.java:52)
+	at co.com.sc.orfeo.core.implementation.AllPdfValidation.execute(AllPdfValidation.java:65)
+	at co.com.sc.orfeo.SCOrfeo.execute(SCOrfeo.java:45)
+	at co.com.sc.orfeo.SCOrfeo.main(SCOrfeo.java:57)
+INFO main co.com.sc.orfeo.SCOrfeo - 7+3hgSPWG7ex4psJBKozBkIHHmgQgaYr1oHaAfskOes=
+INFO main co.com.sc.orfeo.SCOrfeo - Sign and validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Args length 29
+INFO main co.com.sc.orfeo.SCOrfeo - Hash value calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - nmpoCGrz7fKM5meco52Nmv0DmTO/s5Lnm9rfX23Z67g=
+INFO main co.com.sc.orfeo.SCOrfeo - knAsQAJAVdbXfcEpPyY//TAJ8HaO8GjGqGrkaiRwsRY=
+INFO main co.com.sc.orfeo.SCOrfeo - KHoPjfK3QXLdM1s4Z+v6k+SPdvfcsCkGX9m54xDZc1c=
+INFO main co.com.sc.orfeo.SCOrfeo - zFSD0pnQQiTLcozDeSDKCiCvaLFxnkzi37PF21RKK0E=
+INFO main co.com.sc.orfeo.SCOrfeo - Waiting for digital signature
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo-1574457825.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo-1574457825.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo1-1574457825.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo1-1574457825.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo2-1574457825.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo2-1574457825.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo3-1574457825.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo3-1574457825.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Sign and validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Args length 29
+INFO main co.com.sc.orfeo.SCOrfeo - Hash value calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - vBEEUWL6L5u/EENvZjXGC7IYYCWnKFaoPzZzsqRVQOk=
+INFO main co.com.sc.orfeo.SCOrfeo - pRE9PAOdz+9d164Wwjim8CMp+JNHqydzarBfQTXanEk=
+INFO main co.com.sc.orfeo.SCOrfeo - TvVsCvf0s0XQgZMU7vH9PmaFzunifyLaljNTCEB4yrQ=
+INFO main co.com.sc.orfeo.SCOrfeo - oBfVdSnISf3c4KQpnTTWE2XPPhNsk8VX3+MKiyYzHlI=
+INFO main co.com.sc.orfeo.SCOrfeo - Waiting for digital signature
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo-1574457922.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo-1574457922.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo1-1574457922.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo1-1574457922.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo2-1574457922.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo2-1574457922.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo3-1574457922.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo3-1574457922.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Sign and validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Args length 29
+INFO main co.com.sc.orfeo.SCOrfeo - Hash value calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Y/NvYbS5p0ytDY4j0RCXgDXa5fSgtLSfTVk02ZdbaSw=
+INFO main co.com.sc.orfeo.SCOrfeo - 6Jjg+Co7jvLlIZCtobMNNf/M3wc2NU2eFMCm4pKISls=
+INFO main co.com.sc.orfeo.SCOrfeo - rWSBx/kGNACnH2+MvKBUZwVRt79HLsP+pjDBqMq3AS0=
+INFO main co.com.sc.orfeo.SCOrfeo - fc6N0Y54GhubBnOdgGouENjzPTt1pCGLERQXqkqZSms=
+INFO main co.com.sc.orfeo.SCOrfeo - Waiting for digital signature
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo-1574658210.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo-1574658210.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo1-1574658210.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo1-1574658210.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo2-1574658210.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo2-1574658210.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo3-1574658210.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo3-1574658210.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Sign and validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Args length 29
+INFO main co.com.sc.orfeo.SCOrfeo - Hash value calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - yLt3OsvVvUs3rjeGvoi5ZJwE5UH+CyavZIBTO99/fDQ=
+INFO main co.com.sc.orfeo.SCOrfeo - +YjfqR1Mbe/9+D9b9DVU0N9DQplf/0YcBqKVPBV0ciU=
+INFO main co.com.sc.orfeo.SCOrfeo - BWIuFjXE9qGPoddrSh+qwJLMKIefv7f+sx5cMxd1Upk=
+INFO main co.com.sc.orfeo.SCOrfeo - wf5fh8nIegMzCk7dmGSyKsLE/CNQJkv42mGfJ6uXriI=
+INFO main co.com.sc.orfeo.SCOrfeo - Waiting for digital signature
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo-1574658298.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo-1574658298.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo1-1574658298.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo1-1574658298.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo2-1574658298.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo2-1574658298.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo3-1574658298.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo3-1574658298.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Sign and validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Args length 29
+INFO main co.com.sc.orfeo.SCOrfeo - Hash value calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - yKsM/crpPDNgKZKz3RH3fLy8zkL+XBjxyzkWs1oFWp8=
+INFO main co.com.sc.orfeo.SCOrfeo - r6r39ZcT78FKBG5FC2NssL9c5CwH3ztRt8B3cTvd7qs=
+INFO main co.com.sc.orfeo.SCOrfeo - +KlWMJwD7a5pElHEfmw2HgCgprUurnRRbSfn/9DCS8Y=
+INFO main co.com.sc.orfeo.SCOrfeo - rewKwGURIQLT3+z/qeIK/gpffl5QY4SHR9iGcl9Q9tM=
+INFO main co.com.sc.orfeo.SCOrfeo - Waiting for digital signature
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo-1574661188.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo-1574661188.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo1-1574661188.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo1-1574661188.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo2-1574661188.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo2-1574661188.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature found. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo3-1574661188.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign calculation logic invoked
+INFO main co.com.sc.orfeo.SCOrfeo - Post sign process done successfully.
+INFO main co.com.sc.orfeo.SCOrfeo - Digital signature verification. D:/Users/manuel.bejarano/Documents/xampp/htdocs/orfeo/orfeo-server-logic-test/test/Orfeo3-1574661188.pdf
+INFO main co.com.sc.orfeo.SCOrfeo - Sign validation logic invoked

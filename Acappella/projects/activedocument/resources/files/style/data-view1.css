@@ -1,0 +1,74 @@
+/*
+ * Ext JS Library 2.2
+ * Copyright(c) 2006-2008, Ext JS, LLC.
+ * licensing@extjs.com
+ * 
+ * http://extjs.com/license
+ */
+
+.x-panel-body{
+	background: white;
+	font: 12px Arial, Helvetica, sans-serif;
+}
+
+.thumb{
+	background: #dddddd;
+	padding: 3px;
+}
+
+.thumb img{
+	height: 60px;
+	width: 80px;
+}
+
+.thumb-wrap{
+	float: left;
+	margin: 4px;
+	margin-right: 0;
+	padding: 5px;
+}
+
+.thumb-wrap span{
+	display: block;
+	overflow: hidden;
+	text-align: center;
+}
+
+.x-row-over-view{
+    border:4px solid #dddddd;
+    background: #efefef url(images/default/grid/row-over.gif) repeat-x left top;
+}
+
+
+.x-view-over{
+    border:4px solid #dddddd;
+    background: #efefef url(images/default/grid/mso-hd.gif) repeat-x left top;
+    font: 13px Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.x-view-data{
+    border:2px solid #dddddd white;
+    background: white;
+    font: 13px Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.x-view-selected{
+	background: #eff5fb url(images/default/grid/row-sel.gif) repeat-x left top;
+	border:1px solid #99bbe8;
+	padding: 4px;
+}
+
+.x-view-selected .thumb{
+	background:transparent;
+}
+
+.loading-indicator {
+	font-size:11px;
+	background-image:url('images/default/grid/loading.gif');
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left:20px;
+	margin:10px;
+}

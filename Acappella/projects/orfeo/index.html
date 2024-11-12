@@ -1,0 +1,91 @@
+<html>
+<head>
+  <META HTTP-EQUIV="Content-Type" content="text/html"; charset="ISO-8859-1" />
+	<META HTTP-EQUIV="Pragma"  CONTENT="no-cache" />
+	<META HTTP-EQUIV="Expires" CONTENT="-1" />	
+	<script type="text/javascript" src="script?filename=Ext.js"></script>
+	<script type="text/javascript" src="script?filename=ext-base.js"></script>
+	<script type="text/javascript" src="script?filename=ext-all-debug.js"></script>	
+	<script type="text/javascript" src="script?filename=ext-lang-es.js"></script>
+	
+	<!-- remote grid  -->
+  <script type="text/javascript" src="script?filename=BufferedGridView.js"></script>    
+  <script type="text/javascript" src="script?filename=BufferedRowSelectionModel.js"></script>    
+  <script type="text/javascript" src="script?filename=BufferedStore.js"></script>    
+  <script type="text/javascript" src="script?filename=BufferedGridToolbar.js"></script>    
+  <script type="text/javascript" src="script?filename=BufferedJsonReader.js"></script>
+	<!-- remote grid  -->    
+	
+	<!-- combobox extendido  -->   
+	<script type="text/javascript" src="script?filename=combobox_ext.js"></script>
+	<link rel="stylesheet" type="text/css" href="css?filename=Ext-ux-form-LovCombo.css">
+  <link rel="stylesheet" type="text/css" href="css?filename=lovcombo.css">
+  <script type="text/javascript" src="script?filename=Ext.ux.form.LovCombo.js"></script>	
+	<script type="text/javascript" src="script?filename=Ext.ux.ThemeCombo.js"></script>	   
+	<!-- combobox extendido  -->    
+	
+	<link rel="stylesheet" type="text/css" href="css?filename=data-view.css">
+	
+	<!-- upload field  -->
+	<link rel="stylesheet" type="text/css" href="css?filename=file-upload.css">
+	<script type="text/javascript" src="script?filename=FileUploadField.js"></script>
+		
+	<link rel="stylesheet" type="text/css" href="css?filename=iconsfu.css">
+	<link rel="stylesheet" type="text/css" href="css?filename=filetree.css"> 	
+	<script type="text/javascript" src="script?filename=Ext.ux.FileUploader.js"></script>		
+	<script type="text/javascript" src="script?filename=Ext.ux.form.BrowseButton.js"></script>
+	<script type="text/javascript" src="script?filename=Ext.ux.UploadPanel.js"></script>	
+  <!-- upload field  -->		
+	
+	<!-- formlayout  -->   
+	<script type="text/javascript" src="script?filename=formLayout.js"></script>
+	<!-- formlayout  -->   
+	
+	<script type="text/javascript" src="script?filename=Ext.ux.Plugin.RemoteComponent.js"></script>
+	<script type="text/javascript" src="script?filename=acappella_extjscore.js"></script>
+	<script type="text/javascript" src="script?filename=acappella_extjsutil.js"></script>	
+	<link rel="stylesheet" type="text/css" href="css?filename=ext-all.css">
+	
+	<link rel="stylesheet" type="text/css" href="css?filename=icons.css">	<style type="text/css">
+	 .x-item-disabled {
+        filter:none;        
+        color: black !important;
+        -moz-opacity: 100;
+        opacity: 1;    
+   }
+	 div.scroll {
+height: 200px;
+width: 300px;
+overflow: auto;
+border: 1px solid #666;
+background-color: #ccc;
+padding: 8px;
+}
+  </style>    
+</head>
+<body>
+  <script type="text/javascript">	    
+	    Ext.onReady(function() {
+			    Ext.QuickTips.init();
+					_layout = new Ext.Panel({
+					   layout :'fit',
+						 id     : '_layout',
+						 items:[%s]
+            });			
+			   
+         _viewport = new Ext.Viewport({				      
+				      layout  :'anchor',
+							items   : [_layout]														
+				 });
+				 		 				 
+				 var size = _viewport.getSize();
+				 _layout.setHeight(size.height);
+				 _layout.setWidth(size.width);
+			 });	 
+	</script>	
+</head>
+<body>	
+  <div id="center" class="scroll">
+  </div>
+</body>
+</html>

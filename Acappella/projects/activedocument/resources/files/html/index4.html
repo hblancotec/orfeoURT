@@ -1,0 +1,174 @@
+<html>
+<head>
+  <META HTTP-EQUIV="Content-Type" content="text/html"; charset="ISO-8859-1" />
+	<META HTTP-EQUIV="Pragma"  CONTENT="no-cache" />
+	<META HTTP-EQUIV="Expires" CONTENT="-1" />	
+	<script type="text/javascript" src="script?filename=ext-base.js"></script>
+	<script type="text/javascript" src="script?filename=ext-all-debug.js"></script>	
+	<script type="text/javascript" src="script?filename=ext-lang-es.js"></script>
+	
+	<!-- remote grid  -->
+  <script type="text/javascript" src="script?filename=BufferedGridView.js"></script>    
+  <script type="text/javascript" src="script?filename=BufferedRowSelectionModel.js"></script>    
+  <script type="text/javascript" src="script?filename=BufferedStore.js"></script>    
+  <script type="text/javascript" src="script?filename=BufferedGridToolbar.js"></script>    
+  <script type="text/javascript" src="script?filename=BufferedJsonReader.js"></script>
+	<!-- remote grid  -->    
+	
+	<!-- remote proxy  -->
+  <script type="text/javascript" src="script?filename=PagingMemoryRemoteProxy.js"></script>    
+	<!-- remote proxy  -->
+	
+	<script type="text/javascript" src="script?filename=Ext.ux.Plugin.RemoteComponent.js"></script>
+	<script type="text/javascript" src="script?filename=acappella_extjscore.js"></script>	
+	<link rel="stylesheet" type="text/css" href="css?filename=ext-all.css">
+	<link rel="stylesheet" type="text/css" href="css?filename=icons.css">	
+  <title>ACappella Framework - Gestion Documental Menu Principal</title>  
+</head>
+<body>
+  <script type="text/javascript">
+	
+	Ext.onReady(function(){
+    Ext.QuickTips.init();
+		
+		Ext.override(Ext.form.ComboBox, {
+    doQuery : function(q, forceAll){
+        if(q === undefined || q === null){
+            q = '';
+        }
+        var qe = {
+            query: q,
+            forceAll: forceAll,
+            combo: this,
+            cancel:false
+        };
+        if(this.fireEvent('beforequery', qe)===false || qe.cancel){
+            return false;
+        }
+        q = qe.query;
+        forceAll = qe.forceAll;
+        if(forceAll === true || (q.length >= this.minChars)){
+            if(this.lastQuery !== q){
+                this.lastQuery = q;
+                if(this.mode == 'local'){
+                    this.selectedIndex = -1;
+                    if(forceAll){
+                        this.store.clearFilter();
+                    }else{
+                        this.store.filter(this.displayField, q);
+                    }
+                    this.onLoad();
+                }else{
+                    // change: Durlabh's change start
+                    var storeCount;
+                    if(this.store.snapshot) {
+                        storeCount = this.store.snapshot.length;
+                    } else {
+                        storeCount = this.store.getCount();
+                    }
+                    if(this.store.lastOptions && this.store.lastOptions.params) {
+                        var lastQuery = this.store.lastOptions.params[this.queryParam];
+                    }
+                    if(lastQuery != null
+                            && q.length >= lastQuery.length
+                            && q.substr(0, lastQuery.length) == lastQuery
+                            && this.store.getTotalCount() == storeCount) {
+
+                        this.selectedIndex = -1;
+                        this.store.filter(this.displayField, q);                        
+                        this.onLoad();
+                    }
+                    else {
+                        this.store.baseParams[this.queryParam] = q;
+                        this.store.load({
+                            params: this.getParams(q)
+                        });
+                    }
+                    this.expand();
+                }
+            }else{
+                this.selectedIndex = -1;
+                this.onLoad();
+            }
+        }
+    }
+});
+		
+
+    var proxy = new Ext.data.ScriptTagProxy({
+        url: 'cbTest'
+    });
+
+    var store = new Ext.data.Store({
+        proxy : proxy,
+        reader: new Ext.data.JsonReader({
+            id: 'ID',
+            totalProperty: 'totalCount',
+            root: 'Names'
+        }, [{
+            name: 'ID'
+        }, {
+            name: 'name'
+        }])
+    });
+
+
+    var simple = new Ext.form.FormPanel({
+        id: 'simpleForm',
+        title: 'Simple Form',
+        labelWidth: 75,
+        frame: true,
+        bodyStyle: 'padding:5px 5px 0',
+        width: 350,
+        renderTo: Ext.getBody(),
+
+        items: [{
+            store: store,
+            fieldLabel: 'ComboBox',
+            displayField: 'name',
+            valueField: 'name', 
+            typeAhead: true,
+            forceSelection: true,
+            mode: 'remote',
+            triggerAction: 'all',
+            selectOnFocus: true,
+            editable: true,
+            xtype: 'combo',
+
+            listeners: {
+
+                // 'change' will be fired when the value has changed and the user exits the ComboBox via tab, click, etc.
+                // The 'newValue' and 'oldValue' params will be from the field specified in the 'valueField' config above.
+                change: function(combo, newValue, oldValue){
+                    console.log("Old Value: " + oldValue);
+                    console.log("New Value: " + newValue);
+                },
+
+                // 'select' will be fired as soon as an item in the ComboBox is selected with mouse, keyboard.
+                select: function(combo, record, index){
+                    console.log(record.data.name);
+                    console.log(index);
+                }
+            }
+        }]
+    });
+});
+	   	</script>	
+</head>
+<body>
+	<div id="north">
+  </div>
+  <div id="west">
+	   <div id="west1">
+     </div>
+  </div>
+	 <div id="east">
+  </div>
+  <div id="center">
+  </div>
+	<div id="center1">
+  </div>
+	<div id="south">
+  </div>	 	
+</body>
+</html>

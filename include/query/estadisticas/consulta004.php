@@ -1,0 +1,40 @@
+<?php
+$queryE = "SELECT	CAST(DEP.DEPE_CODI AS CHAR(3))+ ' - ' + U.USUA_NOMB,
+					COUNT(*) AS RADICADOS,
+					SUM(R.RADI_NUME_HOJA) AS HOJAS_DIGITALIZADAS,
+					MIN(U.USUA_CODI) AS HID_COD_USUARIO
+			FROM	HIST_EVENTOS H
+					JOIN DEPENDENCIA DEP ON
+						DEP.DEPE_CODI = H.DEPE_CODI
+						$wDepe
+					JOIN USUARIO U ON
+						U.DEPE_CODI = H.DEPE_CODI AND
+						U.USUA_CODI = H.USUA_CODI
+						$wUsua
+					LEFT JOIN RADICADO R ON
+						R.RADI_NUME_RADI = H.RADI_NUME_RADI
+			WHERE	H.SGD_TTR_CODIGO IN(22,42) AND
+					".$db->conn->SQLDate('Y/m/d', 'H.HIST_FECH')." BETWEEN '$fecha_ini' AND '$fecha_fin'
+                    $wTipoRad
+			GROUP BY U.USUA_NOMB, DEP.DEPE_CODI
+			ORDER BY 1";
+ 		
+//CONSULTA PARA VER DETALLES
+$queryEDetalle = "	SELECT	$radi_nume_radi RADICADO,
+							U.USUA_NOMB AS USUARIO_DIGITALIZADOR,
+							H.HIST_OBSE AS OBSERVACIONES,
+							R.RADI_FECH_RADI AS FECHA_RADICACION,
+							H.HIST_FECH AS FECHA_DIGITALIZACION,
+							dbo.VALIDAR_ACCESO_RADEXP (r.radi_nume_radi, '', '" . $_SESSION['login'] . "') AS HID_PERMISO
+					FROM	HIST_EVENTOS H
+							JOIN USUARIO U ON
+								U.DEPE_CODI = H.DEPE_CODI AND
+								U.USUA_CODI = H.USUA_CODI
+								$wUsua
+							JOIN RADICADO R ON
+								R.RADI_NUME_RADI = H.RADI_NUME_RADI
+								$wTipoRad
+					WHERE	H.SGD_TTR_CODIGO IN(22,42) AND 
+							".$db->conn->SQLDate('Y/m/d', 'H.HIST_FECH')." BETWEEN '$fecha_ini' AND '$fecha_fin'
+					ORDER BY RADICADO, FECHA_RADICACION";
+?>

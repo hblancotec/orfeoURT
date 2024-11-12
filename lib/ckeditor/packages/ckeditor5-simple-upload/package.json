@@ -1,0 +1,26 @@
+{
+  "name": "ckeditor5-simple-upload",
+  "version": "1.0.7",
+  "description": "Standart image upload plugin for ckeditor5",
+  "keywords": [
+    "ckeditor5",
+    "image"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pourquoi/ckeditor5-simple-upload.git"
+  },
+  "files": [
+    "src",
+    "theme"
+  ],
+  "author": "pourquoi",
+  "license": "MIT",
+  "dependencies": {
+    "@ckeditor/ckeditor5-core": ">=12.2.1",
+    "@ckeditor/ckeditor5-upload": ">=11.1.1"
+  },
+  "devDependencies": {
+    "@ckeditor/ckeditor5-editor-classic": ">=12.1.3"
+  }
+}

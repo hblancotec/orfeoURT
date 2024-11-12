@@ -1,0 +1,334 @@
+.celdaMenuPrincipal {
+
+	background-color: #8F9FB0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-indent: 10px;
+	height: 20px;
+
+}
+
+.celdaMenuPrincipalB {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #003366;
+	text-indent: 10px;
+	height: 20px;
+
+}
+
+.textoAzul09pts {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	font-style: normal;
+	font-weight: normal;
+	color: #6699CC;
+
+}
+
+.textoPie {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: #336699;
+
+}
+
+ul{
+
+	list-style-type: square;
+
+}
+
+ul#menu {
+
+  width: 171px;
+  list-style-type: none;
+  border-top: solid 1px #ffffff;
+  background: #8F9FB0;
+  margin: 0;
+  padding: 0;
+  align:center;
+
+}
+
+ul#menu ol {
+
+  display: none;
+  text-align: right;
+  list-style-type: none;
+  margin: 0;
+  padding: 5px;
+
+ }
+
+  ul#menu a {
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  color: #ffffff;
+  font-weight:bold;
+
+}
+
+ul#menu li {
+
+  border-bottom: solid 1px #ffffff;
+  line-height: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  color: #ffffff;
+  font-weight:bold;
+  text-indent: 10px;
+
+}
+
+ul#menu ol li {
+
+  border-bottom: 0;
+
+}
+
+ul#menu ol li a{
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  color: #ffffff;
+  font-weight:normal;
+
+}
+
+ul#menu a {
+
+  text-decoration: none;
+  outline: none;
+
+}
+
+ul#menu a:hover {
+
+  color: #ffffcc;
+  text-decoration:underline;
+
+}
+
+ul#menu ol li a:hover {
+
+  color: #ffffff;
+  text-decoration:underline;
+
+}
+
+ul#menu a.active {
+
+  color: #ffffcc;
+
+}
+
+ul#menu {
+
+  width: 171px;
+  list-style-type: none;
+  border-top: solid 1px #ffffff;
+  background: #8F9FB0;
+  margin: 0;
+  padding: 0;
+  align:center;
+
+}
+
+ul#menu ol {
+
+  display: none;
+  text-align: right;
+  list-style-type: none;
+  margin: 0;
+  padding: 5px;
+
+ }
+
+  ul#menu a {
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  color: #ffffff;
+  font-weight:bold;
+
+}
+
+.textoFecha {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-style: italic;
+	font-weight: normal;
+	color: #000000;
+
+}
+
+.textoDocumentoHome {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #666666;
+
+}
+
+.enlaceEnergia {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #FF6600;
+	text-decoration: none;
+	
+}
+
+.enlaceAAA {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #3333CC;
+	text-decoration: none;
+
+}
+
+.enlaceTele {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #33CC00;
+	text-decoration: none;
+
+}
+
+.enlaceIntervenidas {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #993300;
+	text-decoration: none;
+
+}
+
+.tituloIntervenida {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #CC3333;
+	font-weight: bolder;
+
+}
+
+.textoContenido {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #666666;
+
+}
+
+.textoMenuDelegada {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: #FFFFFF;
+	text-align: left;
+
+}
+
+.tituloaaa {
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #3366CC;
+	font-weight: bolder;
+
+}
+
+.tituloener {
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #FF9900;
+	font-weight: bolder;
+
+}
+
+.titulotele {
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #339900;
+	font-weight: bolder;
+
+}
+
+.tituloterrit {
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #666633;
+	font-weight: bolder;
+
+}
+
+.subtituloener {
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: normal;
+	color: #FF9900;
+	text-align: left;
+
+}
+
+.subtitulointervenida {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: normal;
+	color: #CC3333;
+	text-align: left;
+
+}
+
+.subtituloaaa {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: normal;
+	color: #3366CC;
+	text-align: left;
+
+}
+
+.subtitulotele {
+
+
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: normal;
+	color: #339900;
+	text-align: left;
+}
+
+.subtituloterrit {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: normal;
+	color: #666633;
+	text-align: left;
+	
+}
